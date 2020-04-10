@@ -1,0 +1,712 @@
+As such companies receiving favorable eWOM have a better chance to increase sales 21 
+Unlike traditional WOM eWOM leaves digital records on the Internet and therefore provides companies with accessible information 20
+Although the exact ranking method is a secret communicativeness and trustworthiness are reported to be important factors 66
+However their main purpose is to save decision time and to make better decisions 40 
+The selfreport method seems to be most popular due to existing scales such as King and Summers 50 although the key informant method has also been used in a recent study 59 
+As noted by Weimann and colleagues the network structure method works best in a closed selfcontained social setting such as hospitals prisons or army bases 75 
+In the original voting study that introduced the concept of opinion leader Lazarsfeld and colleagues wrote that opinion leaders were the interested highly articulate voters who gave political advice or even tried to convert other citizens 52 
+Manipulating online user reviews is a known phenomenon 62 which makes it important for consumers to receive eWOM from trustworthy opinion leaders 
+ In contrast Feick and Price 34 found influential consumers or market mavens who have broad product category knowledge
+Identifying opinion leaders from observed behaviors such as WOM is the most expensive method although highly accurate 75 
+Opinion leader WOM has become so important to the pharmaceutical industry that the top 15 drug companies spent a third of their marketing expenditures on opinion leaders in 2004 32 though industry practitioners observe that the practice of identifying opinion leaders is ad hoc 49
+ In this sense advances in WMSNs over the next few years will be addressed to the design development and integration of all these capabilities into a single standard mesh solution which in turn will ensure a strong boost of this technology in a wide range of areas such as automation and control home and industrial environmental surveillance precision agriculture traffic monitoring or health services  1
+Therefore as a first contribution of this research work we introduce a multiobjective MO optimization problem  7 which allows us to formulate multiple objectives in a single problem definition in order to later apply the mathematical tool denoted as Goal Programming GP  89 to simultaneously satisfy the objectives pursued 
+In order to obtain the best performance of the WMSN we numerically estimated the goals for the aggregate message collision time and network lifetime metrics which are consistent with the operation of some real scenarios related to agriculture applications where our group has wide experience  1011 
+To this end we first take into consideration the studies in 1214 which allow us to learn about the strong points and limitations of the different techniques that cope with the HT effects in WSNs and WMSNs
+we propose a solution which follows some of the rules related to channel multiplexing 15 and timeslot scheduling  1617 techniques and does not require additional and costly hardware as it is the case of proposals that employ CDMAbased or directional antenna methodologies
+ Among them we highlight those relevant surveys  1520 which overview the current state of the art regarding technological solutions that offer some hints to alleviate this issue 
+In particular results in  21 demonstrate that network performance is significantly degraded by the HT phenomenon 
+To finish with the related analytical studies the work in  23 measures quantitatively the effect of hidden nodes in a WSN for several scenarios singlehop grid random
+ In this paper we take our inspiration from the investigation in  23 to devise our multiobjective optimization problem extended to the WMSN field
+ Furthermore as stated in  29 the RTSCTS mechanism does not resolve completely the HT problems in multihop networks 
+Finally in  13 network nodes implement a learning mechanism at the network formation phase in which nodes determine the number and the position of the slots required for transmittingreceiving information
+  To deal with this concern the IEEE 802155 LRWPAN mesh standard incorporates the Asynchronous Energy Saving ASES mode  234 
+On the other hand to obtain a multichannel coordination nodes run a pseudorandom algorithm which resolves by means of the senders address the channel to tune in each slot 
+Nevertheless ASES does not have any mechanism to solve other significant concerns as the hidden terminals problem 
+To this end we take advantage of the local synchronization approaches proposed by studies as  1240 where nodes share their clock with neighbors in coverage area 
+This assumption together with the regular grid mesh topology selected in this paper for our numerical and simulation campaigns allows us to isolate HT problems from other interference sources 
+This queuing model could be applied because in a mesh network the possibility to finally sendreceive a message depends on multiple factors such as the access to the medium and the communications available in the vicinity 
+  Regarding the powerconsumption evaluation we have opted for the energy model of TelosB devices  49 
+Regarding our evaluation we start from Zheng development for the simulation of the IEEE 802155 LRWPAN mesh on ns2  53 which implements the main mandatory functions related to the mesh topology formation and routing  234 
+ On the one hand nodes would periodically collect information referred to for instance the Receiver Signal Strength Indicator RSSI andor the Link Quality Indicator LQI and using strategies such as machinelearning techniques  55 each node would be able to determine whether a given channel is reliable enough to conduct the communications
+Agile software development is a set of iterative and incremental software engineering methods that are advocated based on an agile philosophy captured in the Agile Manifesto Fowler and Highsmith 2001 
+ They are appropriate for summarizing existing research for identifying gaps in the existing literature as well as for providing background for positioning new research Kitchenham 2007
+In some cases the source presented very vague indicators on size For instance one case Cloke 2007 was included as there were indications of largescale considerations although the size remained unclear
+The closest to our study is the State of Agile survey as large part of the respondents of their latest survey VersionOne Inc 2016 were from large organizations that had at least partially adopted agile 
+Consultants and practitioners have put forward several frameworks for scaling agile For example agile consultants have put together an Agile Scaling Knowledgebase Decision Matrix Mat 2016 where they briefly compare different agile scaling approaches in one big excel sheet 
+Surveys on challenges and success factors for agile projects in general have been conducted egChow and Cao 2008 
+This paper describes a computationally efficient method to estimate probability distributions based on the recent work by Bernacchia and Pigolotti 2011 
+For these reasons the method of Bernacchia and Pigolotti 2011 for estimating PDF distributions should in principle be well suited for such an application because it provides an objective PDF estimate that requires no prior assumptions regarding the underlying distribution 
+Since the direct calculation of the discrete Fourier transform is notoriously slow it would be preferable to evaluate this discrete Fourier transform using the fast Fourier transform FFT method of Cooley and Tukey 1965 
+In this paper we show how to accelerate the computational performance of the BP11 density estimation method using the nonuniform FFT nuFFT method of Greengard and Lee 2004 to approximate the empirical characteristic function Section  2
+Bernacchia and Pigolotti 2011 recently derived a method for objectively estimating the probability distribution function PDF of a univariate dataset 
+Bernacchia and Pigolotti 2011 use this relationship and the result of Watson and Leadbetter 1963 which states that the mean squared error of a kernel density estimate is minimized if the kernel satisfies the equation
+However the nonuniform FFT nuFFT method described by Greengard and Lee 2004 is specifically designed to reduce the computational cost of DFTs on irregularlyspaced data 
+To this end Dutt and Rokhlin 1993 provide an expression for specifying the width of the Gaussian h and the pointwidth q of the convolution such that the resulting FFT is the same as the direct DFT within a specifiable accuracy
+ Following Dutt and Rokhlin 1993 we specify the width of the convolution kernel as h15629 and we apply the convolution to the q28k nearest points surrounding each j data value
+Bernacchia and Pigolotti 2011 note that the selection of the subset of frequencies is arbitrary and corresponds to the arbitrary choice of initial density estimate in the iterative procedure that they use to derive the expression for  
+Because atmospheric velocities are known to exhibit statistical selfsimilarity in reality and in models Nastrom and Gage 1985 Skamarock 2004 Rauscher et al 2013 we apply the analysis to a realization of a fractional Brownian motion which is a type of selfsimilar field Mandelbrot 1983 
+We use the method of Wood and Chan 1994 to generate an fBm field with H06 and 217 points 
+We estimate the exponents of the structure functions using the York et al 2004 maximum likelihood method in loglog space and we show in Fig 1d that the exponents vary as Hm06m as expected for an fBm field with H06 Davis et al 1996
+We use output from the Community Atmosphere Model 4 CAM4 Neale et al 2010 which is a modular hydrostatic atmospheric model with a variety of parameterizations that simulate various processes important for atmospheric dynamics eg radiative transfer convection precipitation etc 
+To characterize the distribution of horizontal velocity increments at the models highest resolution we use the uniformresolution 30 km simulation described by Rauscher et al 2013 
+The model is configured in accord with the aquaplanet protocol specified by Neale and Hoskins 2000 in which the surface of the simulated planet is covered with water and all boundary conditions are specified with rotational in the direction of planetary rotation and hemispheric symmetry 
+The dashed gray lines in the figures show a powerlaw fit using the York et al 2004 maximum likelihood method to the structure functions for increment distances ranging between approximately 100 and 500 km
+For the lower bound it is well known that the diffusive properties of atmospheric models tend to dampen variability for length scales ranging from one grid cell to ten grid cells Skamarock 2004
+Additionally since it is hypothesized that there should be a scalebreak for distances greater than approximately 500 km eg Nastrom and Gage 1985 we restrict our fit to increment distances less than or equal to this value
+This is consistent with the firstorder structure function of the water vapor field reported by Pressel 2012 for a similar model configuration
+ It shows that the modeled atmosphere is not wellcharacterized by a single scaling exponent as suggested by Nastrom and Gage 1985 but that the fractal behavior of the atmosphere ranges from antipersistent H105 to persistent H105 depending on location
+While we could have used other methods of density estimation such as binning or traditional kernel density estimation the Bernacchia and Pigolotti 2011 method avoids the complication of having to choose either bin width or kernel bandwidth which is a subjective choice when faced with data from an unknown distribution 
+As the implementation of our approach is based on the Eclipse Modeling Framework EMF Steinberg et al 2008 it is applicable to any Ecorebased modeling language such as UML any domainspecific modeling language Gray et al 2007 and even to Ecore itself which allows to apply the approach not only to models but also to metamodels
+Current model comparison tools apply a twophase process i correspondences between model elements are computed by model matching algorithms Kolovos et al 2009 and ii a model diffing phase computes the differences between two models from the established correspondences 
+Model transformations cf Czarnecki and Helsen 2006 for an overview are the current technique of choice for specifying executable composite operations 
+Brosch et al 2009 which basically implements the concepts of graph transformations In EMO the pre and postconditions are expressed using the Object Constraint Language Object Management Group 2010 OCL
+For instance Dig et al 2006 propose an approach to detect applied refactorings in Java code  A similar approach is followed by Weissgerber and Diehl 2006
+A heuristicbased approach is presented in Demeyer et al 2000 in which a combination of various software measures as indicator for a certain refactoring is used 
+Hartung et al 2010 present an approach for generating so called semantically enriched evolution mappings between two versions of an ontology 
+Requirements engineering in general includes the activities of identifying documenting verifying and validating coordinating and managing requirements Pohl  Rupp 2011 
+The functional requirements can usually be derived from the product that has to be produced Vyatkin 2013 and are the minimum set of requirements to be specified completely describing the design problem Braha and Maimon 1997
+ All other requirements mentioned in ISOIEC 25010 2011 do not have intensified influence on aPS but have to be considered as well 
+There are a lot of techniques proposed in order to identify requirements Common techniques are conducting surveys and interviews performing brainstorming and using checklists Blanchard 2004 
+This helps keeping specifications up to date even after undocumented evolution steps Haubeck et al 2013
+ Getir et al 2013 show also on the PPU case study that the evolution between system architecture and fault frees cannot be automated and that instead expertise from engineers is required to correctly evolve both the system architecture and the systems fault trees to ensure consistency
+Recently the term technical debt has been coined Kruchten et al 2012 for the effects when suboptimal solutions are chosen to meet shortterm goals similar to financial debt 
+Based on the identification of these changes Rieke presents an approach to synchronize changes between the highlevel specification of CONSENS and the disciplinespecific specifications to ensure consistency between them using Triple Graph Grammars Rieke 2015
+ For modeling these viewpoints the modeling framework relies on the Focus theory Broy and Stølen 2001 which provides strict formal semantics
+The approaches of Filieri et al 2012 GoševaPopstojanova and Trivedi 2001 Zheng et al 2008 and Filieri et al 2015 address this problem by inferring the characteristics at runtime from the running system in order to increase the accuracy of the quality predictions 
+With respect to incremental analysis approaches for nonfunctional properties Kwiatkowska et al 2011 present an incremental technique for quantitative verification of Markov decision processes which is able to reuse results from previous verification runs and exploiting a decomposition of the model 
+According to ARC 2011 in most manufacturing systems the use of IEC 611313 IEC 2009 2013 compliant runtime environments currently is and will be the state of industrial practice in the next 5 10 years
+Similarly Sjoberg et al 2013 conducted a largescale study and concluded that code smells are good indicators for assessing maintainability on file level 
+Efforts towards evaluating different methods of implementing logic control algorithms within IEC 611313 were conducted Hajarnavis and Young 2008 but specific patterns have not been derived yet  However design patterns within control engineering would address a multitude of issues such as controller design architectural design as well as implementation aspects Sanz and Zalewski 2003
+ In Preschern et al 2012 patterns for improving system flexibility and maintainability are introduced 
+ The most popular means is refactoring which provides systematic techniques for restructuring the internal system ie the source code while the external visible behavior is preserved Fowler 1999
+ The aforementioned MechatronicUML method Becker et al 2012 Heinzemann et al 2013 supports links between engineering disciplines 
+It is also possible to mine commonalities and differences in models for the creation of a family model which is a so called 150 model Schaefer et al 2012 containing the complete variability of the system 
+With respect to ensuring consistency of models with manually changed generated code the approach by Bork et al 2008 exploits the templates used for code generation to reparse the generated code with manual changes
+The existing results are mainly concerned with the existence theory of 2 and with the question of convergence which asks whether solutions of 2 converge to a solution of 1 as 
+ Though some results have been derived in 34 they only cover a very weak form of stability which states that the solutions of 2 with perturbed data stay close to the solution with unperturbed data if one additionally increases the regularization parameter Î² in the perturbed problem by a sufficient amount
+The lower semicontinuity of Wp has for instance been shown in 27 
+In addition it has been shown in 59 that the weak convergence of a sequence  together with the convergence RukRu imply that 
+Exact values for the constant K in 37 and thus for the constant c in 35 can be derived from 60 
+Under some assumptions the solution of 40 with yFx  and Î²0 has been shown to recover x  exactly provided the set  has sufficiently small cardinality that is it is sufficiently sparse Results for p1 can be found in 11152548
+For p1 the same type of results Propositions 65 67 has also been obtained for pTikhonov regularization in 3150 
+In Section 5 we have derived quantitative estimates convergence rates for the difference between x  and minimizers  in terms of a generalized Bregman distance
+ For linear operators the required source inequality follows from a source wise representation of a subgradient of R at x  This carries on the result of 6 for constrained regularization 
+Highdimensional timeseries data are becoming increasingly abundant across a wide variety of domains spanning economics 13 neuroscience 10 and cosmology 28
+Linear dynamical system LDS models are amongst the most popular and powerful because of their intuitive nature and ease of implementation 15
+The famous Kalman FilterSmoother is one of the most popular and powerful tools for timeseries prediction with an LDS given known parameters 14
+a generalization of the now classic BaumWelch expectation maximization algorithm commonly used for system identification in much lower dimensional linear dynamical systems 20
+A static LDS model with a diagonal R is equivalent to Factor Analysis while one with multiples of the identity R matrix leads to Principal Component Analysis PCA 21
+one way to search for the maximum likelihood estimation MLE is through iterative methods such as ExpectationMaximization EM 22
+Determining an initial solution with subspace identification and then refining it with EM is an effective approach 6
+The Kirby 21 data were acquired from the FM Kirby Research Center at the Kennedy Krieger Institute an affiliate of Johns Hopkins University 16
+The data are preprocessed with FSL a comprehensive library of analysis tools for fMRI MRI and DTI brain imaging data 23
+The Human Connectome Project HCP is a systematic effort to map macroscopic human brain circuits and their relationship to behavior in a large population of healthy adults 91826
+To determine the number of latent states d the profile likelihood method proposed by Zhu et al 30 is utilized
+The covariance structures in the observation equation R should be generalized and prior knowledge could be incorporated into it 1
+a scientific tool is not only considered to be something that strengthens our senses or is useful in taking measurements but also as an aid to our understanding21 p 51
+To address these questions it is in fact easier to first address the more abstract question—what is the value of philosophy in general? A powerful answer to this is presented by Russell 23 chapter XV
+It is likely however that we need both the forces of unification and diversification to move forward summarised eloquently by Langley 17 referencing Dyson
+Some authors reported improved target delineation with the use of PET CT 1 
+One of the most popular DWI segmentation methods assumes that ADC distribution can be represented by a mixture of Gaussian distributions GMM where each tissue type is modelled by at least one component 2125
+The mixture model parameters were estimated with the use of ExpectationMaximization algorithm EM 34 
+GMM based algorithms have been successfully used for automatic segmentation of NMR imaging since 2005 42 
+Admittedly there are no detailed studies on ADC distribution for brain tumours at different stages but it has been shown that in squamous cell carcinoma ADC in viable tumour remained constant independent of tumour stage while areas with an increased ADC correlated well with areas of necrosis reduced cell density 43
+The ADC which quantifies overall diffusion occurring within each voxel and is affected not only by the volume of the extravascular extracellular space but also by its spatial configuration is able to detect early microstructural tissue changes associated with cell death 46
+In tumors the ADC is usually highest in cystic or necrotic areas then in solid tumor components 47
+The results obtained by MiMSeg are as good as the results of semi automated algorithm based on active contours 49
+The observed deterioration of SOM performance with respect to the result published in the original paper might result from a smaller training dataset compared to the one used in original work of Vijayakumar et al 39 and demonstrates its sensitivity toward the size of the training dataset which seems to be of lesser significance for MiMSeg
+Even if the Google Bouncer Google 2012 security service scrutinises apps before allowing them to be published in Google Play there is evidence Miners 2014 showing that malicious software malware can be found among legitimate apps as well 
+ Even though in this work we focus on Android it is worth to note that similar flaws have been reported also for other well known mobile platforms eg iOS in the literature Damopoulos et al 2013 Egele et al 2011
+The approach we present builds upon the Modelbased Security Toolkit SecKit Neisse et al 2015 leveraging on the policy language and Policy Decision Point PDP component and shows how policy refinement and policy enforcement can be achieved in the context of the Android mobile operating system
+Existing approaches for enforcement of Android security policies are either hardcoded interfaces with a limited set of enforcement options Beresford et al 2011 Zhou et al 2011 or flexible and finegrain approaches using a security policy specification language focusing on low level actions eg API invocations or system calls Rasthofer et al 2014 
+ Many papers in the literature Enck et al 2010 Gibler et al 2012 Stirparo and Kounelis 2012 Zhou and Jiang 2013 have shown apps with high invasion and manipulation on users personal data 
+Furthermore it is almost impossible to guarantee the fairness of any given app as it has been showed that centralised security checks eg Google Bouncer 2012 can be bypassed Ducklin 2012 Miller and Oberheide 2012 while legitimate overprivileged apps Geneiatakis et al 2015 can be manipulated in order to provide access to personal data as shown in Xing et al 2014 
+ Indeed their granularity is quite coarse and considering the 197 permissions of Android SDK version 17 associated to the 1259 methods with permission checks published in Felt et al 2011 on average a permission is associated to 7 API methods
+ In this direction TaintDroid Enck et al 2010 as well as other research works Gibler et al 2012 Stirparo and Kounelis 2012 Zhou and Jiang 2013 demonstrate the type of endusers personal data manipulation performed by mobile apps
+Our analysis consists in1extracting static features ie permissions and respective invoked methods of the Android API from apps using the Dexpler Bartel et al 2012 and Soot framework ValleeRai et al 1999
+identifying the sensitive method invocations incorporated in a given application using the permission map published in Felt et al 2011
+ Other orthogonal approaches such as Nan et al 2015 and Zhou et al 2013 reveal that runtime information gathering could disclose users different states insideoutside of their house and impose a real threat even for their safety
+Fig 4 presents a high level overview of the solution we propose Our framework starts with the decompilation of the Android app using the ApkTool decompiler Tumbleson and Winiewski 2010 that reads the App apk file step 1 and produces the original bytecode step 2
+We refer the reader to Neisse et al 2015 for a complete description of all operators and semantics of the language
+Consequently similar to pure Java applications Android apps can be reverseengineered using the appropriate tools ie smalibaksmali Gruver 2009 ApkTool Tumbleson and Winiewski 2010 Androguard Desnos 2012 Dexpler Bartel et al 2012 and Dex2Jar Pan 2012
+Also Apex introduced by Nauman et al 2010 focuses on policy enforcement for regulating ICC flows 
+CRePE introduced by Conti et al 2011 is also a customised Android OS system able to enforce finegrained security policies considering time and location features 
+Shabtai et al 2010 first proposed the use of SELinux in Android to implement lowlevel Mandatory Access Control MAC policies 
+Batyuk et al 2011 introduced Androlyzer a server based solution that focuses mainly on informing users about apps potential security and privacy risks 
+Papamartzivanos et al 2014 propose a cloudbased crowdsourcing architecture where users share any locally logged information about the app of interest
+TISSA proposed by Zhou et al 2011 introduces a privacy mode functionality in Android with coarsegrained control over the behaviour of an app 
+Schreckling et al 2013 introduce Kynoid a solution that extends Taintdroid with security policies at the variable level 
+Zhauniarovich et al 2014 propose MOSES which enforces contextbased policy specification at the kernel level meaning that MOSES requires a modification to the underlying OS 
+IdentiDroid proposed by Shebaro et al 2014 is a customised version of Android which gives to the user the possibility to switch in an anonymous modality that shadows sensitive data and block permissions at runtime 
+Bagheri et al 2015 in DroidGuard introduce a framework for modelling interapp vulnerabilities and employing the appropriate protection mechanism to enhance users privacy and security 
+ Motivated by this consideration a general framework Populationbased Algorithm Portfolios PAP has been proposed 17
+ Although some analyses have been conducted in 17 to give guidelines along this direction no approach has been developed
+ For example statistical racing 429 is a generalpurpose tool to find an algorithm that performs as well as possible on a problem class 
+A representative method in this category is the socalled racing multiple algorithms on a single problem approach proposed by Yuan and Gallagher 29 which is an extension of statistical racing 
+ Another intraproblem method that is worthy of mention is the intraproblem Adaptive Online Time Allocation intraAOTA approach 8  
+Four existing EAs including selfadaptive differential evolution with neighborhood search SaNSDE 27 particle swarm optimizer with inertia weight wPSO 19 generalized generation gap G3 model with generic parentcentric recombination PCX operator G3PCX 6 and covariance matrix adaptation evolution strategy CMAES 2 were chosen as the candidate EAs 
+Concretely we used all the parameter settings suggested in 27 when implementing SaNSDE
+According to 19 a linearly decreasing inertia weight over the course of the search is employed in wPSO 
+Nonparametric multiplecomparison statistical test described in 7 has been conducted to analyze the performance of all the compared algorithms Specifically two sets of tests have been carried out 
+Following 17 UA FT is defined based on the pairwise comparison of PAP instantiations as given in Eq 2 2PA A F1n k1nPA kA k fkfk Fwhere A and A are different subsets of A and represent the corresponding PAP instantiations
+To make statistical inferences from the observed difference in AUC we followed the recommendations given in a recent article DemÅ¡ar 2006 that looked at the problem of benchmarking classifiers on multiple data sets 
+In Weiss and Provost 2003 it was found that the naturally occurring class distributions in the 25 data sets looked at often did not produce the bestperforming classifiers 
+ Alternatively a progressive adaptive sampling strategy for selecting the optimal class distribution is proposed in Provost Jensen and Oates 1999 
+Chawla Bowyer Hall and Kegelmeyer 2002 proposed a synthetic minority oversampling technique SMOTE which was applied to example data sets in fraud telecommunications management and detection of oil spills in satellite images
+ In Japkowicz 2000 oversampling and downsizing were compared to the authors own method of learning by recognition in order to determine the most effective technique
+Subsequently Batista 2004 identified ten alternative techniques in dealing with class imbalances and trialed them on thirteen data sets 
+The least square support vector machine LSSVM proposed by Suykens Van Gestel De Brabanter De Moor and Vandewalle 2002 is a further adaptation of Vapniks original SVM formulation which leads to solving linear KKT KarushKuhnTucker systems rather than a more complex quadratic programing problem
+A more detailed explanation of how to train a random forest can be found in Breiman 2001 
+A more detailed explanation of gradient boosting can be found in Friedman 2001 2002 
+The performance criterion chosen to measure this effect is the area under the receiver operator characteristic curve AUC statistic as proposed by Baesens et al 2003
+ The AUC statistic was computed using the ROC macro by DeLong DeLong and ClarkePearson 1988 which is available from the SAS website 
+For the LSSVM classifier a linear kernel was chosen and a grid search mechanism was used to tune the hyperparameters For the LSSVM the LSSVMlab Matlab toolbox developed by Suykens et al 2002 was used
+The kNearest Neighbours technique was applied for both k10 and k100 using the Weka Witten  Frank 2005 IBk classifier 
+We used Friedmans test Friedman 1940 to compare the AUCs of the different classifiers 
+The post hoc Nemenyi test Nemenyi 1963 is applied to report any significant differences between individual classifiers 
+ This finding seems to confirm the suggestion made in Baesens et al 2003 that most credit scoring data sets are only weakly nonlinear However techniques such as QDA C45 and kNN10 perform significantly worse than the best performing classifiers at each percentage reduction 
+ Three data sets commonly used in the literature were employed for this purpose namely UIUC 9 Outex 13 and KTHTIPS2b 2 
+To evaluate the classification performance the proposed descriptors were also compared to other stateoftheart and classical texture descriptors GreyLevel Cooccurrence Matrix GLCM 8 Fourier 7 multifractals 19 Local Binary Patterns LBP 14 LBPVAR 14 and MR8 17
+The ability of the connected fractal dimension to differentiate between images of normal and abnormal retinal vessels in 10 suggests that concept of connectivity might also be useful in other applications where the local regularity of the binary image needs to be assessed 
+To extend the notion of connectivity to greylevel images a strategy was proposed in 5 based on a pseudothreedimensional representation of greylevel images 
+Even though a similar definition of adjacency can be used in threedimensional spaces 26adjacency for instance this is not directly applicable to sparse sets of points such as those in the greylevel mapping 
+More details and a pseudocode is provided in 5 for the interested reader
+The version of Outex database used here is the suite OutexTC00013 in 13 and contains 1360 colour images here converted to a greyscale captured under controlled conditions of illumination and imaging geometry 
+The classification of the databases according to the compared descriptors was carried out using a linear discriminant classifier LDA 4 after a principal component analysis PCA 4 to reduce the correlation among features in all compared approaches 
+Particle swarm optimization PSO is a metaheuristic method for global optimization which is inspired by the behavior of a swarm of birds or fish 7
+In this paper we focus on the chaotic PSO exploiting a virtual quartic objective function based on the personal and global best solutionsCPSOVQO17
+In this paper the system 14 is called standard updating system SP This extremely simple approach is so effective that PSO have been applied to many optimization problems arising in various fields of science and engineering 7
+This extremely simple approach is  so effective that PSO have been applied to many optimization problems arising invarious fields of science and engineering7
+the ability of this method to explore other areas for better solutions is  crucial to find highquality solutions and thus various improvements have been investigated419
+One of the most popular of them is called the inertia weight approach PSOIWA 5 which as the search progresses linearly reduces win1ofSPin order to strengthen the diversification in the early stages and its intensification in the final stages of the search
+On the other hand metaheuristic methods exploiting a chaotic system based on the steep estdescent method have been investigated 151820 these methods normally search for a solution along the steepest descent direction of the objective function but they can also execute an extensive search by exploiting the chaotic nature of generated sequences
+The GP method works better than do methods with the transformation and a larger stepsize 16
+Moreoverin17authors theoretically showed a sufficient condition under which the updating system used in CPSOVQO is chaotic and through computational experiments demonstrated that CPSOVQO perform well when applied to some global optimization problems17
+Nevertheless since wd is selected to be nonzero in CPSOVQO from the reason mentioned above almost all particles are able to search for solutions without becoming trapped and such a behavior was not observed in the numerical experiments 17
+Theorem2 is an improved version of the original theorem by Marotto 11 which was proved by Li and Chen 9
+We set w0 in SP and if the absolute value of jth component of the velocity of a particle i is sufficiently smallvijtεR then vijt is reset by a randomized number uniformly selected from −VmaxVmax to avoid being trapped at undesirable local minimum similarly to HPSOTVAC 13
+We selected wswfc1c207022020 for PSOIWA which were more appropriate parameter values for highdimensional problems than those recommended in papers5 and we selected wccc1cc2 052020for CEPSOA
+We applied the selfadaptive differential evolution SADE 2 to the six benchmark problems which is one of the differential evolution DE14 a popular metaheuristic method for the continuous global optimization
+In order to achieve the best possible results we followed the paradigm of problemoriented research ie collaborating with real users to solve their tasks Sedlmair et al 2012 
+Our problemoriented approach to the study of knowledgeassisted visualization systems is based on our prior work Wagner et al 2014 which analyzed the needs of malware analysts in relation to their work on behaviorbased malware pattern analysis 
+Based on the gained insights we analyzed the data the users and the tasks in the problem domain using the datauserstasks analysis framework introduced by Miksch and Aigner Miksch and Aigner 2014 
+These data providers are described in detail in Section 3 of a survey by Wagner et al 2015 Both approaches static and dynamic analysis yield patterns and rules which are later used for malicious software detection and classification
+For the visualization of patterns which are included in the represented execution order arcdiagrams Wattenberg 2002 are used see Fig 42d In this way the analyst receives a visual representation of recurrence patterns up to the five largest patterns in a rule
+In addition to the design decision in relation to a programming IDE we used Gestalt principles Johnson 2014 to improve interface clarity
+For a better understanding of its functionality we describe KAMAS according to five steps based on the visual information seeking mantra by Shneiderman 1992 overview first rearrange and filter detailsondemand then extract and analyze further
+In the second step the traces are clustered with Malheur an automated behavior analysis and classification tool developed by Rieck et al Rieck 2016 
+To increase the performance of our prototype we decided to use a dataoriented design Fabian 2013 eg used in game development and real time rendering to organize and perform transformations on the loaded data 
+To support the malware analysts during their work we integrated a KDB related to the malware behavior schema by Dornhackl et al 2014 which is included on the left side of the interface see Fig 41 as an indented list tree structure
+Basically the dynamic query features Ahlberg et al 1992 were described as being very useful 
+The results show a SUS value of 7583 points out of 100 which can be interpreted as good without significant usability issues according to the SUS description by Bangor et al 2009 
+Based on the SUS description and average evaluation of the system by the participants the result of the usability assessment was very positive Sauro 2011 compared 500 SUS scores and identified the average score as 68 points 
+In contrast to other malware analysis systems which build their visual metaphors directly on the output of the data providers KAMAS uses an input grammar generated by a combination of Malheur Rieck 2016 and Sequitur NevillManning and Witten 1997 for cluster and data classification 
+To this end an algorithm to compute the cyclic edit distance in time Omn log m  was proposed Maes 2003 18 and several heuristics have been proposed to speed up this computation
+Re cently a new algorithm based on q grams was proposed for circular sequence comparison Grossi et al 2016 13 
+The contours of a shape may be represented through a cyclic sequence which can be used in the computation of the cyclic edit distance This can identify similarities in shapes which appear to be distinct from one another 2026 
+Circular molecular structures are abundant in all domains of life bacteria archaea and eukaryotes and in viruses Exhaustive reviews of circular molecular structures can be found in 7 and 14 
+Due to this arbitrariness a suitable rotation of one sequence would give much better results for a pairwise alignment This motivates the design of efficient algorithms that are specifically devoted to the comparison of circular sequences 14513 
+An exact branch and bound algorithm based on Maess algorithm which runs in time Omn log m   was proposed by Barrachina and Marzal 2  
+The weighted Bunke and Buhler algorithm  WeBBA  combines the lower and upper bound estimations computed by the BBA and EBBA algorithms to produce an approximation of the cyclic edit distance in time Omn  23  
+PalazonGonzalez and Marzal 27 studied the same problem but from the indexing point of view for classification and re trieval
+Grossi et al 13 presented an exact algorithm to compute the βblockwise q gram distance between x and y 
+To this end we make use of the Needleman Wunsch algorithm 25 to compute a similarity score for each rotation of string x   and string y   
+The standard edit distance al gorithm is used when computing the edit distance with nonunit costs It runs in time Omn  8  
+The space complexity is Oβm  n   the edit distance and Needleman Wunsch algorithms can both be implemented in Om  n  space 8 
+Algorithm hCED can now be directly used for computing the cyclic edit distance between all pairs of sequences for progressive multiple cir cular sequence alignment 3 
+The most prominent approach is to apply a sliding window technique eg Dalal and Triggs 2005 Nair and Clark 2004 Felzenszwalb et al 2008 Viola et al 2003
+Typically the goal of such methods is to build a generic model that is applicable for all possible scenarios and tasks eg Leibe et al 2008 Felzenszwalb et al 2008 Dalal and Triggs 2005
+In fact to train such classifiers less training data is required and for the particular task they are usually better in terms of accuracy and efficiency Levin et al 2003 Wu and Nevatia 2007a Roth et al 2005
+More specific and thus more efficient classifiers avoiding these problems can be trained using classifier grids eg Grabner et al 2007 Stalder et al 2009 Roth et al 2009
+ To avoid drifting in classifier grids Roth et al 2009 applied fixed update strategies
+Even though for most object detection scenarios a stationary camera can be assumed this constraint which could help to drastically improve the classification performance has been only of limited interest eg Hoiem et al 2006 Roth and Bischof 2008 Wu and Nevatia 2007b Nair and Clark 2004
+The first problem was addressed in Roth et al 2009 where the main idea was to further increase the stability and to speed up the computation by a combination of two generative models in parallel a pretrained model for the positive class and an adaptive model for the negative class
+The authors showed that the recall can be drastically increased but on the expense of the precision In contrast in Sternig et al 2010b we proposed to use a cotraining approach Classifier CoGrids in combination with a robust online learner
+For calculating the recall precision curves RPC a detection is counted as true positive if it fulfills the overlap criterion Agarwal et al 2004 where a minimal overlap of 50 is required
+As we already showed in Roth et al 2009 that the approach is robust even when running in a realworld 247 setup the goal of this paper was to address the problem of shorttime drifting if objects are not moving for a longer period of time
+However since in our case the ambiguity concerns the negative samples we modified the original multipleinstance learning idea inverse MIL We adapted online MILBoost Babenko et al 2009 to fit to our problem
+However several common characteristics can be identified First of all most works consider the total distance traveled or the routing costs of the nurses in the objective function see eg Akjiratikarl Yenradee  Drake 2007 Begur Miller  Weaver 1997 Eveborn Flisberg  Rönnqvist 2006 Eveborn Rönnqvist Einarsdóttir Eklund Líden  Almroth 2009 Hiermann Prandtstetter Rendl Puchinger  Raidl 2015 Mankowska Meisel  Bierwirth 2014 Rasmussen Justesen Dohn  Larsen 2012 Trautsamwieser Gronalt  Hirsch 2011 often in addition to a number of other terms
+Since the latter functions are piecewise linear they can be optimized efficiently despite being nonconvex using dynamic programming Vidal et al 2015
+The idea behind this method is partially based on existing methods for nonconvex piecewise linear cost functions for an overview we refer to Vidal et al 2015 and Hashimoto Yagiura Imahori and Ibaraki 2013
+A successful generalpurpose LNS algorithm for a variety of vehicle routing problems was proposed by Pisinger and Ropke 2007
+An adaptive version of LNS is proposed by Ropke and Pisinger 2006 in which the selection of the operators is biased using their success in previous iterations
+Tricoire 2012 shows that using LNS as a subheuristic the MDLS framework produces results which are competitive to those of the best known solution method for three general multiobjective optimization problems multidimensional multiobjective knapsack problem biobjective set packing problem biobjective orienteering problem
+To assess the quality of the proposed metaheuristic Paretooptimal solutions for small problem instances are generated by embedding the model described in Section 21 into the wellknown constraint scheme Laumanns Thiele  Zitzler 2006
+Researchers and practitioners are becoming more interested in the concept of TD and the reasons why it should be an essential part of decisionmaking in software development Falessi et al 2014
+Thus code base complexity can force the company to take more TD intentionally because the fixing of current TD would take too much time and money while quick and dirty solutions are easier and faster to implement YliHuumo et al 2014
+A portfolio approach for TDM has been suggested by Guo and Seaman 2011  
+Code reviews where another developer checks your code can be used to prevent bad solutions from getting to the code base Baker 1997 Kemerer and Paulk 2009 while setting up coding standardsguidelines for the development team to ensure as much cohesion as possible during the development Green and Ledgard 2011 can improve understandability and learnability
+Documentation is a valuable practice that improves understandability and communication Das et al 2007 Forward and Lethbridge 2002 
+ Based on the referenced literature 25 we modified BB² which represents the fuzzystate assumption  
+Cheng and Mon 6 used the Î±cut of Level1 fuzzy numbers to obtain the intervals and determine the fuzzy reliability of the serial system 
+ Furthermore to ensure easy defuzzification the signed distance proposed by Abbasbandy and Asady 1 must be considered and modified into the signed distance of an intervalvalued fuzzy number
+Using a method similar to that of Yao and Wu 13 we considered the signed distance and ranking on FIVÎ 
+Using the same arguments as those of Yao and Wu 13 we obtained the following properties
+By applying the method of Kaufmann and Gupta 10 and Zimmermann 14 we derived the following property
+Using the method proposed by Zimmermann 14 we used Fig 4 approximate to Fig 3
+Example 1 is based on the example presented by Chen 7 and Singer 12Two grinding machines are working next to each other 
+Thus the interaction cannot be modeled using the statistical mean properties of turbulence eg turbulent kinetic energy and dissipation rate 35  
+The understanding of turbulence is a part of wish list suggested at Turbulence Colloquium in Marseille 2011 for current and future studies 6 The intention of this research work is to improve the understanding of turbulence
+Here the wave number  is the mean fluctuating velocity of turbulent vortices of size Î and it is theoretically given by 10
+The experimental data shows that the constant Î± is 15 approximately 11
+Risso and Fabre 12 have used the same value as given by Pope 13 and Lasheras 14 has pointed out that there is a range for C from about 282
+The coefficient CS is determined using the dynamic model 13
+It is important that the LES simulations are run for at least a few mean flow residence times to become statistically steady 16 
+When 80 of the turbulent kinetic energy is resolved the LES simulation can be considered wellresolved 17Another measure of resolution quality is the ratio of instantaneous subgrid turbulent viscosity to the molecular viscosity 
+Su et al 19 and Davidson 20 used two point correlations of velocities to quantify how many cells are resolving the large structures
+At least five to ten cells are required to ensure that the largest scales are well resolved in LES 20 
+ Chakraborty and et al 22 showed that the Qcriterion and Î2 almost give the same flow structuresWhen there is no imposed nonuniform strain field in the turbulent flow the Qcriterion can be used to identify the core location of the turbulent vortices 
+Recently an analysis of the turbulent kinetic energy on a 2D plane of a 3D LES simulation revealed that less than 40 of the turbulent kinetic energy TKE on the plane would be captured within the structures identified by the lowest possible cut off Qcriterion 18
+To extend the vortex volume the BiotSavart law was implementedA distribution of vorticity in a vortex induces the relative velocity field based on the BiotSavart law 23 
+By increasing the Reynolds number the inertial subrange in a turbulent flow is increased 24 
+Here we introduce the discriminative skinpresence features DSPFs derived from the discriminative textural features DTFs described in our earlier works on skin detection Kawulok 2012 and image colorization Kawulok et al 2012
+A thorough survey comparing various colorbased skin detection approaches was presented by Kakumanu et al 2007
+A technique operating in multiple color spaces to increase the stability was described by Kukharev and Nowosielski 2004 
+An approach for adapting the segmentation threshold in the probability map based on the assumption that a skin region is coherent and should have homogenous textural features was introduced by Phung et al 2003 
+An interesting algorithm incorporating color texture and space analysis was given by Jiang et al 2007 
+Although the colorbased skin models can be efficiently adapted to a given image it was proved by Zhu et al 2004 that it is hardly possible to separate skin from nonskin pixels using such approaches 
+In the presented study the skin probability maps were obtained using Bayesian skin modeling introduced by Jones and Rehg 2002 
+In addition PÎ² threshold is used as proposed by del Solar and Verschae 2004 which prevents the propagation to the regions of very low skin probability
+We have implemented the approach as an extension to the EvoSuite tool Fraser and Arcuri 2013b and analyze the effects of the different parameters involved in the local search and determine the best configuration
+Different types of local search algorithms exist including simulated annealing tabu search iterated local search and variable neighborhood search see Gendreau and Potvin 2010 for example for further details 
+Harman and McMinn 2010 recently determined that global search is more effective than local search but less efficient as it is more costly
+The use of MAs for test generation was originally proposed by Wang and Jeng 2006 in the context of test generation for procedural code and has since then been applied in different domains such as combinatorial testing RodriguezTello and TorresJimenez 2010 
+In the context of generating unit tests for objectoriented code Arcuri and Yao 2007 combined a GA with hill climbing to form an MA when generating unit tests for container classes 
+Floating point datatypes for floating point variables float double we use the same approach as originally defined by Harman and McMinn 2007 for handling floating point numbers with the AVM 
+Considering the high costs of fitness evaluations in the test generation scenario a generally preferred choice ElMihoub et al 2006 is Lamarckian learning ie the local search changes the genotype and its fitness value rather than just the fitness value
+Therefore we chose classes already used in previous experiments Arcuri and Fraser 2013 but excluded those on which EvoSuite trivially already achieves 100 coverage as there was no scope for improvement with local search 
+Therefore we used the case study of the Carfast Park et al 2012 test generation tool33Available at httpwwwcarfastorg accessed June 2013 
+ To evaluate the statistical and practical differences among the different settings we followed the guidelines by Arcuri and Briand 2014 
+ As described in Section 43 we use the adaptive methods introduced by Galeotti et al 2013 
+ In contrast the Carfast Park et al 2012 case study is devoid of such environmental dependencies but still consists of a set of automatically generated software projects that are intended to be realistic 
+ The nearest approximation we are aware of is Scheelen et al 2012 who investigated a single company by connecting with followers on LinkedIn where the social media structure is based around employment
+Obvious features often work well Perito et al 2011 focused on the identifiability of usernames 
+ Chen et al 2012 detail some of these vulnerabilities and demonstrate that additional details such as phone numbers can be better retrieved when multiple profiles of the target can be linked
+ Kontaxis et al 2011 describes the profile cloning attack which lets social engineers use existing information on one person to imitate them on a service on which they do not have an account along with a detection strategy for this
+From the roster pages we can extract the names of employees using the Stanford NER tool Finkel et al 2005 This gives us a list of known employee names OE
+Using a method adopted from Gonzalez et al 2013 we randomly sampled 1161 Google profiles from the network
+This sampling process is designed to avoid biases in the dataset being used for evaluating this component of the system and is more fully described by Edwards et al 2016
+To date this focus has largely been attributed to technical shortcomings demonstrated in the sharp rise of disclosed vulnerabilities Kaspersky Lab 2015 and neglecting the importance of social and organisational factors 
+ This could be combined with more active countermeasures such as phishing email susceptibility tests as described by Finn and Jakobsson 2007 or by creating honeypot social media accounts in a similar manner to that described by Lee et al for uncovering social spammers Lee et al 2010 
+we can take advantage of the welldeveloped theory and algorithms of the latter see 2458142425 to mention only a few possible sources
+We also remark that maxŁukasiewicz semiring can be seen as a special case of incline algebras of Cao Kim and Roush 9 see also eg Han Li 28 and Tan 40
+Powers of matrices over distributive lattices are studied eg by Cechlárová 11
+This work uses a terminology based on the Event Processing Technical Society EPTS glossary  20 which originated from the CEP literature 
+Declarative the expected results of the computation are declared often using a language similar to SQL The Continuous Query Language CQL  21 is the most prominent representative of this category
+Imperative the computations to be performed are directly specified using operators that transform event streams The Aurora Stream Query Algebra SQuAl  17 inspired most languages in this category
+Similarly the discussion around Big Data and the rise of the MapReduce platform  28 have also had a great impact on CEP
+Other frameworks such as Twitters Storm   31 and Yahoos S4   32 propose a more radical departure from the MapReduce programming model but maintain runtime platforms inspired by MapReduce implementations
+CloudSim   12 is a wellknown cloud computing simulator that can represent various types of clouds including private public hybrid and multicloud environments 
+Garg and Buyya  9 created NetworkCloudSim which extends CloudSim with a threetier network model and an application model that can represent communicating processes Guérout et al
+GreenCloud   13 is a cloud simulator developed as an extension of the NS2 network simulator  36
+Apache Storm is an opensource distributed stream processing system that has been adopted by many enterprises despite limitations regarding QoS maintenance privacy and security  42
+For instance Aniello et al  43 proposed a scheduler that can be used to improve the system performance and Chang et al  44 introduced CCAF a security framework that can be used to secure Storm deployments
+For this purpose widely accepted by the distributed systems community is the use of the Autonomic Computing AC paradigm 2 to endow distributed systems with selfmanagement capacities such as selfadaptation and selfoptimizing
+ In our approach we model variability at the architectural level using the Common Variability Language  7 CVL 
+For the rest of steps we follow the widely known MAPEK loop  8 of the AC paradigm where MAPE stands for Monitoring Analysis Plan and Execution and K stands for Knowledge 
+For this we use a GA called DAGAME  22 optimized to be executed at runtime with scarce resources 
+ As stated by Guo et al  23 applying GAs can be highly appropriate when the solutions space is very wide and it is not affordable to evaluate all of them due to a lack of resources and time 
+Because of its ability to fit well with optimization problems based on variability the concept of utility function has been applied before in other proposals such as MUSIC  1312
+ In this paper we use the DAGAME algorithm that focuses on optimizing feature models configurations to optimize the VSpecs tree as it has proven to be efficient and produces nearlyoptimal results  22
+ According to the definition provided in  31 an architectural element is quiescent if the following criteria are satisfied1It is in a passive state2It is not currently executing a transaction3No transactions initiated by other elements will require itTherefore when a component is quiescent we can safely remove or modify it 
+If we apply the concept of optimality   23 which is defined by Guo et al as the ratio between the utility of the solution obtained using DAGAME and the utility of the optimal solution obtained using the exact method we can see that in the worst case the optimality of the solutions obtained using DAGAME is higher than 874 
+This limitation is not strictly related to our approach but to the optimization algorithm However as shown in  22 it is very straightforward to modify DAGAME in order to include the ability to take into account the usage of distinct resources 
+Vassev et al  34 propose ASCENS a framework for the representation and reasoning of knowledge which is defined as a specific interpretation of the context data 
+This is also the objective of  23 but using genetic algorithms being even faster than the previous one
+Pnueli and Rosner have shown that the synthesis problem is undecidable for the architecture shown in Fig 112 and hence in general and Finkbeiner and Schewe 7 have identified the class of architectures in which synthesis is decidable
+The undecidability of safety and reachability languages has been established in 8 using a reduction to tiling languages
+One can naturally extend them to matrices and vectors leading to the maxmin fuzzy linear algebra of 24121315
+The development of tropical maxplus convexity was started by K Zimmermann 28 and it gained new impetus after the works of Cohen Gaubert Quadrat and Singer 5 and Develin and Sturmfels 6
+K Zimmermann 29 also suggested to develop the convex geometry over wider classes of semirings with idempotent addition including the maxmin semiring 
+Although our interest here is mostly theoretical it is also motivated by the theory of fuzzy sets 27 which has numerous applications in computer science and decision theory
+Our approach is inspired by a geometric idea behind the notion the tropical rank 7 that is a tropically convex polytope can be represented as a union of conventionally convex sets and its dimension can be defined as the greatest dimension of these convex sets
+In this section we describe general segments in Bd following 2226 where complete proofs can be found 
+In the remaining part of the paper following the parallel with the tropical rank considered by Develin Santos and Sturmfels 7 in the maxplus algebra we investigate how our notion of dimension relates with the notion of strong regularity in maxmin algebra For ABdm1 the ith column will be denoted by A¢i
+ A more usual square version of this definition will appear in the next section and we will show that it is equivalent to the one studied in 212
+We now show that for ABkk our notion of strong regularity is equivalent to the trapezoidal property and hence it coincides with the strong regularity in maxmin algebra introduced in 2
+In this paper we introduce the notion of dimension of a maxmin convex set and show that it is equivalent to a notion of matrix rank based on the strong regularity for the matrices in maxmin algebra 2
+Furthermore it is plausible that the results of this paper might be generalizable to the setting of 15 and also to the Lconvexities and biconvexities of 24
+For instance VavreÄka and FarkaÅ¡ 2014 presented a connectionist architecture that learns to bind visual properties of objects spatial location shape and color to proper lexical features 
+For this purpose we extended our recently proposed spatiotemporal hierarchy for the integration of posemotion action cues Parisi et al 2015 to include an associative network layer where actionword mappings develop from cooccurring audiovisual inputs using asymmetric interlayer connectivity
+Experiencedriven development plays a crucial role in the brain Nelson 2000 with topographic maps being a common feature of the cortex for processing sensory inputs Willshaw  von der Malsburg 1976
+Our learning model consists of hierarchicallyarranged GWR networks Marsland et al 2002 that obtain progressively generalized representations of sensory inputs and learn inherent spatiotemporal dependencies 
+To evaluate our system we compared newly obtained results with recently reported results using hierarchical GWRbased recognition Parisi et al 2015
+ Similar to VavreÄka and FarkaÅ¡ 2014 and Morse et al 2015 we argue that the cooccurrence of sensory inputs is a sufficient source of information to create robust multimodal representations with the use of associative links between unimodal representations that can be incrementally learned in an unsupervised fashion 
+Specifically for the visual cortex Hasson et al 2008 showed that while early visual areas such as the primary visual cortex V1 and the motionsensitive area MT yield higher responses to instantaneous sensory input highlevel areas such as the STS were more affected by information accumulated over longer timescales 12s 
+On the other hand several developmental studies have shown that human infants are able to learn actionword mappings also in the presence of missing ambiguous or sometimes contradictory referents using crosssituational statistics Smith  Yu 2008
+More recently behavioural Wexler et al 1998 Wohlschl¤ger 2001 and neuroscientific experiments Georgopoulos Lurito Petrides Schwartz  Massey 1989 Lamm et al 2007 have suggested the idea that mental rotation relies on a mentally simulated action Michelon Vettel  Zacks 2006 rather than on a purely visual and spatial imagery skill
+We Seepanomwan Caligiore Baldassarre  Cangelosi 2013a 2013b recently proposed a neuralnetwork model whose macro architecture was linked to brain macro areas This model was able to solve a simple mental rotation task of 2D visuallyperceived objects in a simulated humanoid robot the iCub Tikhanoff et al 2008 
+This model together with other analogous models eg Bogacz et al 2006 is very important as it allows the reproduction of the reaction times often recorded in psychological experiments Caligiore et al 2010 2008 Erlhagen  Schner 2002 
+Fig 3 shows the three sets of 2D abstract objects broadly similar to those employed by Hochberg and Gellman 1977 used as stimuli during the mental rotation tasks 
+To this purpose the model incorporated the mutual inhibition model Bogacz et al 2006 Usher  McClelland 2001 that allows a more accurate and biologicallyplausible reproduction of the decision making process of the participants of target psychological experiments 
+To discover hidden variables and learn their dynamics Li et al 30 built a probabilistic model to estimate the expectation of missing values conditioned on the observed parts  
+Xiao et al 58 adopted sparse representation to predict the missing values and Baumann et al 4 fixed missing data via searching poses with a similar marker set from a priordatabase and then optimizing an energy minimization function to synthesize the positional data of the missing markers 
+Lee and Shin 26 formulated rotation smoothing as a nonlinear optimization problem and iteratively minimized the energy function to smooth the motion
+Meanwhile Cand¨s et al 8 proved that it is possible to recover most lowrank matrices from what appears to be an incomplete set of entries 
+And inspired by the success of the penalized least squares regression model 14 we seek to minimize the following objective function
+The main drawback of the penalized least squares regression models is their sensitivity to the outliers We should choose robust weighting functions to minimize or cancel the side effects of the outliers 
+As indicated by Eq 14 the output x relies on the smoothing regularization parameter Î¼ In order to set it correctly and automatically we resort to the method of generalized crossvalidation GCV 1028
+Indeed the above lowrank matrix completion problem Eq 21 can be efficiently solved via many algorithms such as the accelerated proximal gradient APG algorithm 3455 the SVT algorithm 7 and the augmented Lagrange multiplier ALM algorithm 33
+Since it is at most about 3040 of the data is missing or noisy in practice 29 we fix the ratio of the missing or noisy data to 3040 to evaluate all the algorithms 
+SVT 23 and our method are much more suitable to handle long sequences eg boxing and tai chi sequences in Fig 7k and i than short sequences eg run and walk sequences in Fig 7a and b¢Linear and Spline methods are suitable for handling short time randomly missing data as Fig 6 
+Dynammo 30 works very well in handling periodic actions such as walking and running 
+Successful applications have been made to fields such as vehicle suspension 19 20 XY table motion control 21 automated driving 22 brushless DC motors 23 robot control 2425 and dualstage actuators 2627 
+In 31 33 multimodel adaptive control using multiple models to identify the unknown plant is considered as higher level adaptive control this improves the transient response of control systems with large uncertainties in a stable fashion
+Several countries around the world see nuclear power as an important route for cutting carbon emissions while meeting their energy demands in the future IPCC 2014 even though the viability of the nuclear option in a sustainable energy mix is being debated constantly Kaygusuz 2012 Mari 2014 Mez 2012 Verbruggen 2008
+ However these sorts of optimal control problems are commonly solved in Mathematical Finance and more generally in Operations Research Sahebjamnia Torabi  Mansouri 2015 and we are going to follow that framework here to identify the best postaccident recovery strategies Such a framework will provide a superstructure to COCO2
+Considering the joint costminimal strategy across a number of measures is particularly important in the situations such as large accidents where a combination of individually justified actions may be deemed unacceptable as a whole due to high levels of disruption to society ICRP 2009
+To accounting for these multiple factors in the context of nuclear emergencies the socalled MultiCriteria Decision Analysis MCDA methodology has been applied successfully French 1996 Hämäläinen et al 2000 
+There is some discussion in the literature about what the true costs of exposure to radiation are and Cuttler  Pollycove 2009 is just one example of the relatively recent point of view that low levels of exposure to radiation can in fact provide some benefit to the recipient 
+COCO2 implements WTP approach which values life in terms of the amounts that people are prepared to pay to reduce risk of deathillness NHS and private medical insurance are good examples Higgins et al 2008
+We believe that at the current state of knowledge there is no absolutely compelling evidence in favour of any particular approach for putting monetary values on heath including the effects of radiation and coming up with the best possible valuation for economic consequences of receiving a dose remains of large significance Thomas  Vaughan 2015
+However owing to the fact that the vast majority of nuclear installations are surrounded by rural or at most semiurban areas Grimston et al 2014 we can safely assume that all the productivity figures per person defined in this section are constants and are determined by the economic make up of the given locations regardless of their population sizes
+Chen 3 presented an approach for reconciling existing workflows to bring about compatibility
+4 presented a bottomup cross organisational workflow enactment approach
+Sirin et al 25 created a semiautomatic web services composition system which allows users to select from a list of web services at each step of composition 
+Later Sirin et al 27 extended their semiautomatic web service composition system to a fully automatic system They implemented an OWLStoSHOP2 translator to translate collections of OWLS process definitions into SHOP2 domain 
+Problem Solving Methods PSMs 9 is another area that has a conceptual resemblance to web service composition due to its focus on reusable domainindependent reasoning about ontologies 11 
+The framework presented in the paper is closely related to the system proposed by Sirin et al 27 
+ It extends the translation algorithm put forward in 27 to translate atomic processes with both outputs and postconditions 
+We will consider a VendorCustomer example scenario This is a modification of the example presented by Chen 3 
+Unfortunately large standardized datasets for validation are yet missing for mission impact assessment and in the following presented work de Barros Barreto et al 2013 introduce a wellunderstood modeling technique and use BPMN models to acquire knowledge
+This modeling approach is well accepted and can be found eg in Albanese et al 2013 de Barros Barreto et al 2013 Musman et al 2011 
+Therefore we extend a model by Jakobson 2011 and model mission dependencies as shown in Fig 2 as a graph of mission nodes We model a company as being dependent on its business processes
+With Definition 3 a mission dependency model represents a probabilistic graphical model and in particular a Bayesian network as eg defined by Pearl and Russell 2003 
+ Sommestad and Hunstad 2013 conducted an experiment at the information warfare lab of the Swedish defense research agency which gives us the opportunity to demonstrate Example 4 for vulnerability impact assessment 
+In our work by Granadillo et al 2016 we demonstrate an approach to unify these threedimensional assessments with further multidimensional assessments of response plans and propose a selection of optimal response plans based on an unweighted best compromise in all dimensions 
+ We discuss and evaluate the benefits of a combination of both toward a welldefined probabilistic mission defense and assurance approach in Motzek and Moller 2016
+Future work is dedicated to adapt existing approximation techniques eg RaoBlackwellised particle filtering as presented in Doucet et al 2000 for DBNs toward novel ADBNs 
+Prior studies have examined winnertakesall competition Eisenmann Parker and Van Alstyne 2006 ie a situation where one platform ultimately wins the platform race 
+Prior research has focused on software vendors multihoming in console games marketplaces Landsman and Stremersch 2011 Software as a Service SaaS marketplaces Burkard Draisbach Widjaja and Buxmann 2011 Burkard Widjaja and Buxmann 2012 and also within Apples ecosystem Idu et al 2011 
+Idu et al 2011 investigated the iPhone iPad and Mac software marketplaces and found that out of the top 1800 applications 172 were multihomed in two marketplaces and 21 in all three marketplaces
+In their theoretical analysis of competitive advantage in twosided markets Sun and Tse 2009 highlighted the importance of the distinction between multihoming and singlehoming in determining the winner among competing platforms 
+Following Landsman and Stremersch 2011 we investigated multihoming by dividing it into two levels seller and platformlevel multihoming 
+We used Levenshtein distance Levenshtein 1966 to measure the similarity of two names and employed Pythons diﬄib library3 for comparisons
+As pointed out by Hyrynsalmi et al 2012 most of the installations in Google Play were generated by a small set of applications 
+This observation contrasts with prior studies that suggested that the level of multihoming is at most small Boudreau 2007 2012 Altogether our results have several implications for both research and practice that are discussed in the following section
+According to Sun and Tses 2009 theory of platform competition a multihoming market can sustain several competing ecosystems however a singlehoming market eventually evolves into only one prevailing ecosystem 
+With regard to the second area of future research a business ecosystem should among other success factors support niche and opportunity creation Iansiti and Levien 2004 
+However since the prioneering work of Lord et al 72 the proposal of similarity measures for genomics and proteomics based on the Gene Ontology GO 5 have attracted a lot of attention as detailed in a recent survey on the topic 76
+Many GObased semantic similarity measures have been proposed for protein functional similarity 2829101132 giving rise to applications in protein classification and proteinprotein interactions 41129 gene proritization 117 and many others reported in 76 p2
+In 57 LastraD­az and Garc­aSerrano introduce a new family of similarity measures based on an Information Content IC model whose pioneering work is introduced by Resnik 108 
+One of the similarity measures introduced in 57 called coswJCsim obtains the best results on the RG65 dataset In another subsequent work 56 the same aforementioned authors introduce a new family of intrinsic and corpusbased IC models and a new algebraic framework for their derivation which is based on the estimation of the conditional probabilities between child and parent concepts within a taxonomy 
+In addition this work also introduces a new replication framework and the WNSimRep v1 dataset for the first time provided as supplementary material in 63 whose aim is to provide a gold standard to assist in the exact replication of ontologybased similarity measures and IC models 
+This work is part of a novel innitiative on computational reproducibility recently introduced by Chirigati et al 26 whose pioneering work is introduced by Wolke et al 127 with the aim of leading to the exact replication of several dynamic resource allocation strategies in cloud data centers evaluated in a companion paper 128
+Another significant example of caching is the approach adopted by the WNetSS semantic measures library introduced recently by Aouicha et al 15
+Pedersen 94 and subsequently Fokkens et al 37 warn of the need to reproduce and validate previous methods and results reported in the literature a suggestion that we subscribe to in our aforementioned works 5658 where we also refuted some previous conclusions and warn of finding some contradictory results 
+A recent study 633 on the perception of this reproducibility crisis in science shows that the aforementioned reproducibility problems in our area are not the exception but the rule Precisely this latter fact has encouraged the recent manifesto for reproducible science 90 which we also subscribe
+For example Zhou et al 134 define the root depth as 1 whilst the standard convention in graph theory is 0 Most authors define the hyponym set as the descendant node set without including the base node itself 
+In a recent work 57 we find some contradictory results and difficulties in replicating previous methods and experiments reported in the literature 
+First edgecounting measures the socalled pathbased measures whose core idea is the use of the length of the shortest path between concepts as an estimation of their degree of similarity such as the pioneering work of Rada et al 107 
+ Stanchev 122 introduces an assymmetric similarity weighted graph derived from WordNet whilst Mart­nezGil 75 proposes an aggregated similarity measure based on a combination of multiple ontologybased similarity measures and Van Miltenburg 125 proposes a method to compute the semantic similarity between adjectives based on the use of the similarity between their sets of derivational source names in WordNet 
+To bridge this gap Seco et al 119 introduce the first intrinsic IC model in the literature whose core hypothesis is that the IC models can be directly computed from intrinsic taxonomical features
+HESML V1R2 currently supports the WordNet taxonomy most ontologybased similarity measures and all the IC models for concept similarity reported in the literature with the only exception of the IC models introduced by Harispe et al 46 although the latter IC model could be included in future versions 
+We follow the same experimental setup as that detailed in 56 and 58 including the same datasets preprocessing steps evaluation metrics baselines management of polysemic words and reporting of the results 
+All the corpusbased IC models are derived from the family of add1dat WordNetbased frequency files included in the 95 dataset which is a dataset of corpusbased files created for a series of papers on similarity measures in WordNet such as 93 and 96 
+All benchmarks detailed in table 17 are implemented on a single Java console program called HESMLVSSMLtestjar which is publicly available at 61
+In addition we have introduced a set of reproducible experiments based on ReproZip 64 and HESML which corresponds to the experimental surveys introduced by LastraD­az and Garc­ aSerrano in 57 56 and 58 as well as the WNSimRep v1 replication framework and dataset 63 and a benchmark of semantic measures libraries 61
+As forthcoming activities we plan to extend HESML in order to support Wikidata 126 and non isa relationships in the short term whilst in the mid term we expect to support the Gene Ontology GO MeSH and SNOMEDCT ontologies 
+Among the various solutions proposed to that end the adoption of ModelDriven Engineering MDE Schmidt 2006 has fared rather well by measure of interest and success 
+That joint initiative proved the component model initially captured in Panunzio and Vardanega 2010 to be an essential facilitator to the industrial adoption of the proposed approach
+Two decades later the Correctness by Construction CbyC manifesto Chapman 2006 promoted a software production method fostering the early detection and removal of development errors for safer cheaper and more reliable software
+When composability and compositionality can be assured by static analysis guaranteed throughout implementation and actively preserved at run time we may speak of composition with guarantees Vardanega 2009 which is our grander goal here
+The connector Mehta et al 2000 is the software entity responsible for the interaction between components which actually is a mediated communication between containers Connectors allow separating interaction concerns from functional concerns 
+The PROGRESS component model ProCom Carlson et al 2010 extends SaveCCM to address highlevel concerns typical of early design stages of a largescale distributed embedded system highlevel early analysis and deployment to processing units
+Second we propose a more generic model of transient synchronization based on a Weakly Coupled Oscillator WCO framework Hoppensteadt  Izhikevich 1997
+This section describes a spectral analysis applied to the ECOG data presented in Canolty et al 2007 ECOG data was recorded from an 8by8 grid of electrodes placed over frontotemporal cortex 
+Each nonword matched one of the words action verbs in duration intensity and power spectrum but was rendered unintelligible by removing components of the modulation power spectrum using the Modulation Transfer Function MTF algorithm described in Elliott and Theunissen 2009 
+Human speech is characterized by a fourfold variation in the speed at which words are spoken Miller Grosjean  Lomanto 1984 and any speech recognition system whether artificial or natural will have to deal with this range of timewarp 
+Much research examines the robustness of stable synchronized states as a function of variations in oscillator frequencies Kuramoto 1984 for example has derived the following result
+A quantitative relationship can be derived for example by assuming that the instantaneous phases are Gaussian distributed with phase variance t2 The instantaneous field power is then given by Roweis 2009
+We also compare augmented and minimal models using the model evidence as computed using the Posterior Harmonic Mean PHM Gelman et al 1995 This approximates the evidence for a model using samples from the posterior density 15
+ Extension of our modelling to include multiple regions as in Corchs and Deco 2004 Husain et al 2004 is therefore an important direction for future work
+Researchers have designed algorithms to solve many interesting problems for these devices such as GPU sorting or hashing 14 linear algebra  57 dynamic programming  89 graph algorithms  1013 and many other classic algorithms  1415 
+Aggarwal and Vitter proposed the Disk Access Machine DAM model 22 which counts the number of memory transfers from slow to fast memory instead of simply counting the number of memory accesses by the program 
+We analyze 4 classic algorithms for the problem of computing All Pairs Shortest Paths APSP on a weighted graph in the TMM model  43
+The Block Transfer model BT  27 addresses this deficiency by defining that a block of consecutive locations can be copied from memory to memory taking one unit of time per element after the initial access time 
+Thus they simplified and reduced the MH parameters by putting forward a new Uniform Memory Hierarchy UMH model  2829
+Quite different to PRAM the BulkSynchronous Parallel BSP model  34 attempts to bridge theory and practice by allowing processors to work asynchronously and it models latency and limited bandwidth for distributed memory machines without shared memory
+ We carefully analyze how statecompatible automata relate to quasideterministic automata which were introduced by Korp and Middeldorp 13 to overcome problems with tree automata completion for nonleftlinear term rewrite systems 
+This is not a problem in 4 where the languages of interest are terminating terms These languages can be closed under subterms without losing the termination property
+Tree automata have an obvious application for disproving local confluence as pointed out in 19
+To handle this problem the notion of raiseconsistency was introduced in 13 The basic idea is to ensure that whenever an automaton accepts terms s1s2 with bases1bases2 it also accepts s1s2 in a related state cf
+ These are used in CeTA 18 a certifier for several properties related to term rewriting
+For example we group the transitions of an automaton by their root symbols and store these groups in ordered trees using Isabelles collection framework 15
+For c0 in 23 it is suggested to apply the previous transformation 4 with ha and is claimed that the Chen and the Lu systems with c0 are a particular case of the Tsystem 2677 which was published later7
+Recently a very interesting discussion on the equivalence of the Lorenz the Chen and the Lu systems was initiated in 2311Below a few remarks concerning the discussion and being important are given
+Generally speaking for quadratic systems the existence of a trajectory on tt0 does not imply its existence on tt0 see eg examples from the paper 21 on the completeness of quadratic polynomial systems or the classical example xÌx2
+Recently interesting examples that were previously unexplored where reported in the Lorenz system and the Chen system 7475
+ The hypothesis that inequality 10 is a necessary condition was accepted in 4041 and was first proved in 13
+Recently in the papers 3746 it is proposed a new effective analyticalnumerical procedure for localization of homoclinic trajectories Fishing principle 
+Nevertheless in 37 it is shown that a small change of all these systems in a neighborhood of a saddle can lead to the satisfaction of all conditions of the Shilnikov theorem and consequently to Shilnikov chaos in the Lorenz the Chen and the Lu systems 
+The mathematical tools developed independently by Douady Oesterle 20 and Ilyashenko 25 permitted one to obtain the following extension of the Liouville theorem and to estimate the Hausdorff dimension of K
+In the work 43 it is introduced Lyapunov functions in the estimates of the form 18 and proved the following result
+The estimate from above of the Lyapunov dimension by Lyapunov functions 36 and its comparison with the local Lyapunov dimension in zero stationary point permit one to obtain the exact formula of dimension for a generalized Lorenz system 9 with a certain parameter d 
+In 2012 G Leonov in his work 35 demonstrated by the transformation xhxyhyzhzth1t with ha that without loss of generality nonlinear Chen and the Lu systems can be considered as twoparametric systems for a0 the Chen and the Lu systems become linear and their dynamics have minor interest 
+We note that in the constant viscosity case the heuristic statement of incompressible Reynolds equation from Stokes model is obtained in 2 while the more rigorous one based on asymptotic developments is proved in 3
+Barus law has been also used to model pressure dependence of viscosity in the original Stokes equation in 9 arguing also that Reynolds equation is only valid when the shear stress is much smaller than the reciprocal of the pressureviscosity coefficient while later on in 10 a corrected Reynolds equation is obtained from NavierStokes ones with pressure dependence of viscosity and in 11 a simpler derivation is obtained
+More recently by assuming that the viscosity depends on pressure in Stokes equation according to Barus law in 12 a more careful derivation of the limit Reynolds equation is carried out 
+Note that the viscosity depends on pressure After some simplifying assumptions detailed in 12 including that py0 Eqs 2 and 3 are reduced to5dpdxÎ¼2uy22dÎ¼dpuxdpdx
+As indicated in the review paper 13 and throughout the literature cavitation is one of the most relevant features of lubrication problems 
+ This phenomenon is defined in 14 as the rupture of the continuous fluid film due to the formation of air bubbles inside The presence of two different regions the first with a complete fluid film and the second with a partial film partial lubrication in cavitated area has been experimentally observed in many lubricated devices such as journalbearings ballbearings etc
+A review concerning the mathematical and physical analysis of the different models is presented in 15 
+In order to compare the results with those ones appearing in 12 for the case of a rigid long rollingcylinder we introduce the angular coordinate t defined by the change of variablexRsint
+In the variational inequality formulation in the forthcoming Section 51 existence and uniqueness is well known for the usual model with Î±0 see 16 for example 
+More precisely in 18 it is proved that cavitation can only occur in the divergent part of the gap ie the region where dhdt0 and that the cavitated area is a connected one 
+Numerical solution of the alternative Reynolds equationThe numerical solutions for the problem 2527 may be obtained by the combination of finite element techniques with a classical projection method 19 or a more complex duality type algorithm proposed in 20 
+ The application of these techniques to classical piezoviscous formulations can be found in 6821 for example 
+At this point we propose two alternatives to solve the discretized problem 38 a relaxation algorithm with projection on the convex set Kh first described in 19 and the duality type algorithm proposed in 20 for the numerical solution partial differential equations involving maximal monotone operators
+ Azevedo et al 2011 brings a discussion about influence of extends association in use cases which helps to count UCP more precisely Software size prediction through use case analysis addresses objectoriented design thus this method is now widely used 
+The use case size points method was evaluated in Braz and Vergilio 2006 
+Wang et al 2009 proposed an extended UCP in that employed fuzzy sets and a Bayesian belief network used to set unadjusted UCP The result of this approach was a probabilistic effort estimation model
+ Classification methods are often used to recognize the motion activities based on various classification methods 13 or classifiers for a specific action class 14 
+It was found that the stick figure model was the simplest representation of the human body whereby joints are connected by a line segment 2324
+Meanwhile Shen et al 9 proposed unconstrained motion estimation using a single frame This method was found to be suitable for long sequences of motions and different types of movements 
+The independent method to shape models is reported in Hofmann and Gavrila 10 who combined probabilistic singleframe pose recovery temporal integration and texture model adaptation to estimate 3D upper body movements 
+Despite the lowlevel feature discussed by Kim and Park 42 Benický and Jurišica 43 and Long and Wu 44 the middlelevel features that consider points and strokes are more informative compared to the edge feature from the lowlevel feature 45 
+Middlelevel features are usually connected local features and global features that represent complex motion activity 46 
+ Meanwhile Josinski et al 49 used the features extracted from spatial trajectories for gait motion recognition 
+In addition a discriminative feature was proposed by Wang et al 50 to reduce the computational expense in action recognition
+However recent works 45373940 have shown that human body posture coordinate data analysis is worth further investigation particularly from a data mining perspective
+For instance Zhou et al 15 performed featurereduced Gaussian process classification to recognize articulated and deformable human actions 
+Orović et al 19classified arm movements based on time frequency analysis of radar data Other studies reported human motion classification using Kernelbased representation 20 ANN 53 RBF neural networks 21 random decision forests 22 and pyroelectric infrared PIR sensor 54 Clearly human motion classification has become an active field of study
+As stated by Yoo et al 57 2D motion data are based on intuition and able to define the posture faster for computer animation 
+Each piece of raw video data is transformed into snapshot images of 05 equal time steps Following Hoshino et al 59 Souvenir and Parrigan 60 and Eichner et al 61 the image files were transformed based on the most fundamental assumption that human motions can be ideally modeled as 2D rigid body segments
+Chen Chiang and Storey 2012 report the publication of 126 academic articles in business journals in 2011 containing the phrase business analytics in the title or abstract equal to the total published in such journals in the ten years prior 252 articles in total between 2000 and 2011 
+Until the end of 2013 only one paper had been published in this journal which was primarily focused on a very specific application of financial modelling Gosh  Troutt 2012 
+Compared to the 252 found by Chen et al 2012 across all business journals in the ORMS literature only 13 were found across the same time period the years up to and including 2011
+However considering that the first academic articles discussing analytics were published in the early 2000s eg Kohavi Rothleder  Simoudis 2002 the tardiness of the ORMS academic communitys response is surprising enough to warrant further exploration of the underlying causes
+Perhaps the most cited definition of analytics is that provided by Davenport and Harris 2007 p 7
+The claim that analytics is a subset of business intelligence BI is a view supported by others such as Bartlett 2013 p 4 who argues Business Intelligence  Business Analytics  Information Technology
+This definition is very similar to that given by Shim et al 2002 to the field of decision support systems DSS
+Another example is INFORMS definitions of analytics as the scientific process of transforming data into insight for making better decisions Liberatore  Luo 2011 p 582 which bears close relation to their definition of ORMS as the application of advanced analytical methods to make better decisions INFORMS 2013 
+The most prevalent of such definitions is proposed in Lustig Dietrich Johnson and Dziekan 2010 who argue that analytics comprises of three distinct aspects
+Predictive analytics whilst regarded by many to be an evolution of the approaches of data mining and machine learning Agosta 2004 Shmueli  Koppius 2011 still has suﬃcient commonality with these disciplines so as to make a complete distinction problematic
+Varshney and Mojsilovic 2011 p 84 however propose applied mathematics applied probability applied statistics computer science and signal processing whereas Evans 2012 argues for BIinformation systems statistics and ORMS
+In Decision Support Systems arguably the areas most influential book of its era Keen and Scott Morton 1978 pp 33 34 propose that four disciplines are integral computer science information economics management science and behavioral science 
+This movement using the concepts introduced by Kuhn 1962 can therefore be described as the dominant paradigm in the science of business management
+Whilst the movements momentum eventually waned it had significant impact at the time as well as leaving a clear legacy on management practice Taksa 1992 
+This is supported by the work of Locke 1989 into what he regards as the start of a new academic paradigm at a similar time 
+The advances and applications of the paradigm have sought to make available data tools and analyses to provide the evidence to allow decision makers access to discursive evidence that can supplement their use of intuition and experience for more effective decision making see Shah Horne  Capellá 2012 for further discussion on this area
+This is particularly evident in soft OR Rosenhead  Mingers 2001 and behavioural OR Hämälläinen Luoma  Saarinen 2013 but also in approaches such as multicriteria decision analysis MCDA the use of more subjective expert or decision maker judgement as a data input see Köksalan Wallenius  Zionts 2011 for further discussion of the development of these methods 
+Elsewhere attempts were made to create solutions to wicked problems Churchman 1967 problems which are harder to structure and define due to conflicting perspectives amongst relevant stakeholders 
+Whilst these were still essentially GUIs in contrast with the first DSS these dashboards were prepopulated with key performance indicators KPIs designed to speedily convey the critical measures of business performance Few 2006 
+This data is of such scale as to limit the application of BI architecture and relational databases Stonebraker et al 2007 creating a demand for new technologies and architectures
+However the challenges and opportunities presented by working with the extremely large datasets of the period has led to new approaches which led Anderson 2008 to claim that the scientific method is obsolete
+Secondly there have been many efforts to provide decision support and automation in realtime eg Davenport  Harris 2007 Niedermann Radeschütz  Mitschang 2011 
+There is a demand for reliable and robust methods for detecting PCD especially for a quantitative measure of texture abnormalities for the purpose of predicting the stages of PCD 13 
+Genetic Programming GP employs tree structure representations to solve problems 22 With inductive learning algorithms of varying power the GP has been successfully applied to various learning algorithms including the feature synthesis approach which has demonstrated the superiority for diverse classification problems 202324
+To extract cell objects from the background selection of the optimal threshold was introduced in 5 using the zeroth and firstorder cumulative moments of the graylevel histogram
+Combined with probability theory the graphbased method offered advantages for the classification of subcellular protein patterns in fluorescence microscope images 78 
+The details of the GP can be found in 22
+When the transformed data Xxii1m the input of the EM steps with the k known classes are assumed under the mixture of the k Gaussians the multivariate Gaussian mixture with a ddimensional mean vector Î¼j and a dd covariance matrix j for the data X is given by 29308
+The main reason is that the change due to optical distortion errors associated with microscopy illumination effects would be far less significant in the cumulative histogram as compared to that change in standard histograms because the continuous nondecreasing image representation is inherently noiseresistant 39 Our experimental results support this
+It started gaining wide attention only in 2010 when Humble and Farley published the book titled Continuous Delivery Reliable Software Releases through Build Test and Deployment Automation Humble and Farley 2010 However the CD approach has become increasingly popular as shown by Google search trends Fig 1
+For example Claps et al 2015 reported that the need for adding additional computing power network bandwidth and memory to CI servers is a challenge They consider adding more resources as a strategy Claps et al 2015
+In other words we need to change to Infrastructure as a Service IaaS Mell and Grance 2011
+For example Claps et al 2015 reported that it is important to ensure that top management implements a strategy to push the need to implement the CD process as a strategy to adopt CD However putting this strategy into
+As another example Claps et al 2015 also reported providing more resources to a products CI servers as a strategy to adopt CD However acquiring more resources was a true challenge for us 
+This includes among others a need for economically sound mechanisms to incentivize user participation which is reportedly low in some of the existing systems 124 and is recognized as a significant obstacle factor in the others 50 
+To tackle the negative impact of peers churn on the performance of peerassisted content delivery systems the authors in 20 proposed a crowdsourcingbased content distribution system called Thunder Crystal 
+The impact of the limited upload bandwidth on peerassisted content distribution has been evaluated in  42 
+The authors of 41 suggested that a lower startup delay and continuous transmission could be achieved by utilizing P2P resources more efficiently 
+A centralized architecture to minimize the interISP traffic has been proposed in 67 
+Zhang et al in  122 reported that peerassistance enables significant benefits for Kankan in distributing popular videos ie up to 980 of the video content in Kankan are distributed in a peertopeer fashion whereas edge nodes are responsible for handling a longtail of unpopular videos
+To tackle the problem of peers inaccessibility behind the middle boxes LiveSky and NetSession have exploited the modified version of STUN 92 and UDP protocols 
+It has been shown in various recent papers that by employing efficient topologyaware and ISPfriendly peer selection policies 67123 the deleterious influences of interISP traffic can be minimized
+Indeed a study on the two leading CDN operators ie Limelight and Akamai demonstrated that significant traffic savings ie up to 6653 for Akamai and 6555 for Limlight can be achieved even if peertopeer traffic is localized within the ISP domains 44 
+ Some recent studies have shown that cacheenabled DevicetoDevice D2D communication can be helpful in improving spectral efficiency and reducing communication delay 3677107 
+The straight skeleton SP of a simple polygon P was introduced by Aichholzer et al 1 and is defined by considering the propagation of a socalled wavefront
+The weighted version of the straight skeleton where edges no longer move at unit speed was first mentioned by Eppstein and Erickson 2 and studied in detail by Biedl et al 45 
+Recently Biedl et al 4 showed that many of the seemingly obvious properties of straight skeletons no longer hold when weights are not unit weights 
+Variable length Markov chains Bühlmann and Wyner 1999 relax the assumption that the conditional distribution involves  prior responses instead allowing the number of previous variables that enter the conditioning to vary according to the values of these variables
+Efficient model selection methods are available Bühlmann 2000 
+In Browning and Browning 2007a the threshold was further modified to take the form
+The values  and  were recommended in Browning and Browning 2007a based on unpublished simulation studies
+We compare the model selection algorithm described in the previous section with that described by Browning and Browning 2007a and implemented in Beagle in two ways firstly by comparing their rate of convergence as the sample size increases using simulation and secondly by assessing the goodnessoffit of the selected model using tenfold crossvalidation
+We compare the performance of the proposed model selection algorithm based on penalized likelihood criteria both AIC and BIC to that implemented in Beagle Here we use both the settings suggested in Browning and Browning 2007a  and  and the settings implicit in Browning 2006  and  
+We observe that for all three data sets the goodnessoffit of the proposed method is comparable to that of Beagle when the settings implicit in Browning 2006  and  are used and superior to Beagle when the settings suggested in Browning and Browning 2007a  and  are used 
+In this paper we have given a brief introduction to the use of APFA to model discrete longitudinal data and adapted an algorithm proposed by Ron et al 1998 and implemented with modifications by Browning and Browning 2007a so that this seeks to minimize a penalized likelihood criterion for example AIC or BIC
+According to data mining practitioners 20 data preparation1 can take up to 80 of the modelling efforts and is crucial for development of wellperforming models
+In modelling of the Blood Oxygen Level Dependent BOLD signal this effect is additionally magnified by the haemodynamic response delay 13 and relatively low resolution of the images 27 
+The intersection of the 10 sets obtained in this way resulted in 92 voxels common for all sessions Fig 6 which is a slightly different result when compared to 17 where the authors have reported the intersection to contain 93 voxels
+This is a measure inspired by clustering algorithms 4 designed to encourage formation of groups of samples which are similar to each other while dissimilar to the samples in other groups
+Two kinds of SDG slices are used in this paper backward slices and forward slices Horwitz et al 1990 Ottenstein and Ottenstein 1984
+Sameslice clustersAn alternative definition uses the sameslice relation in place of slice inclusion Binkley and Harman 2005 
+This is followed by a series of four case studies where qualitative analysis aided by the decluvi cluster visualization tool Islam et al 2010a highlight how knowledge of clusters can aid a software engineer 
+The slices along with the mapping between the SDG vertices and the actual source code are extracted from the mature and widely used slicing tool CodeSurfer Anderson and Teitelbaum 2001 version 21 
+At the Medium and High settings CodeSurfer performs extensive pointer analysis using the algorithm proposed by Fahndrich et al 1998 which implements a variant of Andersens pointer analysis algorithm Andersen 1994 this includes parameter aliasing 
+Slice size is often used to measure the impact of the analysis precision Shapiro and Horwitz 1997 similarly we also use slice size as a measure of precision
+This is however a significant improvement over previous use of slice size as the hash value which is only 783 accurate in the strict case of zero tolerance for variation in slice contents Binkley and Harman 2005
+Following prior empirical work Binkley and Harman 2005 Harman et al 2009 Islam et al 2010ab a threshold of 10 is used
+This indicates that the sizes of dependence clusters reported by previous studies Binkley et al 2008 Binkley and Harman 2005 2009 Harman et al 2009 Islam et al 2010b maybe conservative and mutual dependence clusters are larger and more prevalent than previously reported
+Black et al 2006 suggested that dependence clusters are potentially where bugs may be located and suggested the possibility of a link between clusters and program faults
+ Each update was manually checked using CVSAnaly Robles et al 2004 to determine whether the update was a bug fix or simply an enhancement or upgrade to the system 
+This can be achieved by measuring the impact of the proposed change Black 2001 or by attempting to identify portions of code for which a change can be safely performed free from side effects Gallagher and Lyle 1991 Tonella 2003
+A recently proposed impact analysis framework Acharya and Robinson 2011 reports that impact sets are often part of large dependence clusters when using time consuming but high precision slicing 
+This paper uses the most precise static slicing available There has also been recent work on finding dependence communities in software Hamilton and Danicic 2012 where social network community structure detection algorithms are applied to sliceinclusion graphs to identify communities
+This paper extends our previous work which introduced coherent dependence clusters Islam et al 2010b and decluvi Islam et al 2010a
+In some ways our work follows the evolutionary development of the study of software clones Bellon et al 2007 which were thought to be harmful and problematic when first observed
+While engineers needed to be aware of them it remains a subject of much debate as to whether or not they should be refactored tolerated or even nurtured Bouktif et al 2006 Kapser and Godfrey 2008We believe the same kind of discussion may apply to dependence clusters
+Qualitative models have traditionally been produced on flip charts using marker pens but computermediated modelling is increasing in popularity and this can facilitate remotely distributed andor anonymous stakeholder participation bringing advantages compared with facetoface pen and paper modelling Er and Ng 1995 Fjermestad 2004 Fan et al 2007
+Some PSMs are explicitly systemic Jackson 2000 Midgley 2000 2003 They not only seek to enhance mutual understanding between stakeholders but they also support participants in undertaking bigger picture analyses which may cast new light on the issue and potential solutions
+First claiming universality for knowledge about systemic PSMs would suggest that this knowledge will remain stable over time However it is clear from the literature eg Rosenhead and Mingers 2004 Shaw et al 2006 Franco et al 2007 that new problem structuring methods are being produced on a regular basis indicating that people are learning from previous practice and are also having to respond to an ever increasing number of unique practical situations
+Our second methodological argument following Eden 1995 and others is that only seeking knowledge about the supposedly generic strengths and weaknesses of methods ignores legitimate questions that can be asked about the effectiveness of those methods in particular local circumstances 
+No doubt the list of possible aspects of context could be extended indefinitely Gopal and Prasad 2000 and different issues will be relevant in different situations so we argue that it is more useful to give some methodological guidelines for exploring context in local situations than it is to provide a generic inventory of variables
+Establishing a boundary for analysis involves making a value judgement on what issues and stakeholders are important or peripheral Ulrich 1994 
+Identifying the presence of influential institutional or organisational systems may be important Any such system can have its own agenda rationality and momentum that may come to dominate an intervention Douglas 1986 Luhmann 1986 Brocklesby 2009 yet organisational systems still have to interact with others and tensions can result Paterson and Teubner 1998 
+Pettigrew 1987 notes that wider systemic eg socioeconomic and ecological contexts not only influence perceptions of methods and processes but also the content of participants deliberations
+We note that our questions align well with five high level criteria suggested by Hjortsø 2004 for the evaluation of PSMs except that our questions go into much more detail 
+This method was first introduced in 9 and extended to the case of positivedimensional solution sets in 10 
+This section outlines in broad strokes the regeneration homotopy method for computing the isolated nonsingular solutions of a polynomial system as first developed in 9 and stated succinctly for the nonsingular case in 10
+A more general statement than Lemma 33 is given as an exercise in 7 and a related result for a pure ddimensional algebraic subset is presented in 8 for d0
+Using precisely the Bertini settings described on the examples page for 3 for all runs we find that regeneration is fastest followed by perturbed regeneration
+As outlined in 9 regeneration techniques can be combined with deflation to find singular solutions 
+If the user expects positivedimensional solution sets or cannot preclude their presence regenerative cascade 10 is typically the best bet
+For sparse problems polyhedral methods 122616 are an especially good option
+An arealevel linear mixed model with random area effects was first proposed by Fay and Herriot 1979 to estimate average percapita income in small places of the US
+Without being exhaustive we cite some papers dealing with the FayHerriot model Prasad and Rao 1990 Datta and Lahiri 2000 Das et al 2004 Gonz¡lezManteiga et al 2010 Jiang et al 2011 Datta et al 2011a and Kubokawa 2011 gave tools for measuring the uncertainty of modelbased small area estimators
+Datta et al 2011b Bell et al 2013 and Pfeffermann et al 2014 studied the problem of benchmarking
+ Ybarra and Lohr 2008 proposed a new small area estimator that accounts for sampling variability in the auxiliary information 
+ Choudry and Rao 1989 introduced a model including several time instants and considering an autocorrelated structure for sampling errors 
+ Rao and Yu 1994 proposed a model that borrows information across areas and over time
+Ghosh et al 1996 proposed a time correlated area level model to estimate the median income of fourperson families for American states 
+Datta et al 1999 You and Rao 2000 Datta et al 2002 Esteban et al 2011 2012 Marhuenda et al 2013 and Morales et al 2015 gave some extensions of the RaoYu model with applications to the estimation of labor or poverty indicators 
+In this setup the introduced multivariate models contain the models proposed by Esteban et al 2011 as particular cases
+Prasad and Rao 1990 gave an approximation to the MSE of the EBLUP of Î¼dr under the univariate FayHerriot model when their proposed momentbased estimator of the variance ur2 is employed
+Although the multivariate FayHerriot model 4 can be written in the form of the general linear mixed model considered by Das et al 2004 the approximation of the matrix of mean squared crossed errors is not covered by this paper
+Under the assumption of normality on u and e and for unbiased and translation invariant estimators of Î¸ Kackar and Harville 1981 proved that the expectations of the last two terms in 12 are null 
+The target of Simulation 2 is to investigate the behavior of the MSE estimator 15 and the three bootstrap alternatives considered by Gonz¡lezManteiga et al 2008b
+Esteban et al 2012 and Marhuenda et al 2013 gave estimates of province poverty proportions and gaps by using data from the 2006 Spanish Living Condition Survey SLCS
+Esteban et al 2012 studies several univariate extensions of the FayHerriot model to temporal data These authors recommended using their model 3 with random effects taking into account for AR1 time correlation within each domain 
+Given such detailed correspondences with experienced qualia and multiple types of data it can be argued that these dynamical resonant states are not just neural correlates of consciousness Chalmers 2000 Mormann  Koch 2007 
+For example Koch and Tsuchiya 2007 note that subjects can attend to a location for many seconds and yet fail to see one or more attributes of an object at that location
+These include equations for shortterm memory or STM mediumterm memory or MTM and longterm memory or LTM that were introduced in Grossberg 1968c 1969 see Grossberg 2013b for a review 
+It has been mathematically proved that such match learning can solve the stability plasticity dilemma by creating stable categories in response to arbitrary sequences of events presented in any order eg  Carpenter and Grossberg 1987 1991
+Taken together these signals form a recurrent oncenter offsurround network that is capable of contrastenhancing and normalizing its activities Grossberg 1973 1980 
+Fortunately basic properties of bipole cells for perceptual grouping and simple feedback interactions between the boundary and surface streams go a long way to accomplish figureground separation Grossberg 1994 2016a
+The Where stream is also called the How stream because of its important role in controlling actions in space Goodale  Milner 1992
+As noted by Bonneh Cooperman and Sagi 2001 p 798 motioninduced blindness may be influenced by perceptual grouping effects object rivalry and visual field anisotropy
+How this is predicted to occur was first proposed in Grossberg 1994 1997 where it was also shown that remarkably the process that assures perceptual consistency also initiates figureground separation
+The Li and DiCarlo 2008 and Chiu and Yantis 2009 experimental paradigms may be combined to further test the model prediction of how spatial attention may modulate learning of invariant object categories
+A helpful way to understand auditory visual homologs is to consider the perception action circular reactions that occur during auditory and visual development Piaget 1945 1951 1952 
+Grossberg 2003b 2013b Grossberg and Pearson 2008 and Grossberg and Kazerounian 2016 review the hypothesis first proposed in Grossberg 1978a that ItemandOrder working memories satisfy two postulates which ensure that speech and language can be learned in a stable way through time the LTM Invariance Principle and the Normalization Rule 
+Agam Galperin Gold and Sekuler 2007 reported data consistent with the formation of list chunks as movement sequences are practiced thereby supporting the prediction that working memory networks are designed to interact closely with list chunking networks
+NormNet was tested by speakernormalizing and learning steadystate vowel categories from the Peterson and Barney 1952 database with an accuracy similar to that of human listeners
+Several experiments have reported such asymmetric vocalic context effects from T to S but not conversely Kunisaki  Fujisaki 1977 Mann  Repp 1980 and psychophysical experiments support the importance of consonantvowel ratio as a cue for voicing in English eg  Port and Dalby 1982
+ The hippocampus in this model includes a circuit for adaptively timed learning called a spectral timing circuit in the earlier START model Grossberg  Merrill 1992 1996 Grossberg  Schmajuk 1989 
+This inhibition would not however occur in response to an unexpected nonoccurrence because the spectral timing circuit would not be active then Grossberg  Merrill 1992 1996 Grossberg  Schmajuk 1989
+A major factor of team success for instance is whether a set of experts can work together effectively 23 
+Hyeongon et al 3 measure the familarity between experts to derive a persons knowwho
+Cheatham and Cleereman 5 apply social network analysis to detect common interests and collaborations
+An alternative approach is first finding tightly connected communities 12 and then analyzing the available skills to generate desirable team configurations
+Papers on existing online expert communities such as Slashdot 20 and Yahoo! answers 21 yield specific knowledge about the social network structure and expertise distribution that need to be supported by a team composition mechanism
+Composition is driven by the clients preferences 30 environment context 3132 or service context ie current expert context 33
+A prominent example of a graphbased global importance metric is Googles page rank 34
+Social networkbased expert finding and subsequently team formation will soon become central business concerns 39
+The important work of Lee Padmanabhan and Whang 1997 not only brought the term bullwhip effect to widespread academic attention but also proposed an additional four causes to the problem where players are assumed to behave completely rationally 
+his effect is considered to be an important cause of business and economic cycles Clark 1917 Mitchell 1913 Samuelson 1939 
+The experimental approach was pioneered by the seminal paper of Sterman 1989 who documented a roleplaying game for inventory management called the Beer Game 
+Chen Dresner Ryan and SimchiLevi 2000a identified that bullwhip is at least partly due to the unpredictability of demand leadtimes and the need to forecast future demand 
+The first order autoregressive demand model AR1 has perhaps been the most frequently adopted Chen et al 2000a Lee et al 1997 2000 amongst others  
+There have been some attempts in the literature to quantify the bullwhip effect in reverse logistics systems Tang and Naim 2004 incorporated a remanufacturing process into the APIOBPCS model John et al 1994 
+Thus far scholars have focused on the improvement of toolfunctionalities which aid bargainers in the negotiation process eg 113753 
+Complementing the cognitive fit theory Paivio 48 50 proposes the dual coding theory
+Speier and Morris 71 provide a study associating literature on graphical support and cognitive fit theory
+ Along with Smelcer and Carmel 68 they extend the view of comparative advantages of graphical display formats by showing that the performance difference in terms of time and accuracy increases even with task complexity 
+ Recently Khatri et al 28 extended the perspective of cognitive fit for external problem presentations and internal task representations
+ Jarvenpaa 22 introduces the term incongruence to describe a situation in which the processing required for a decision strategy and the process encouraged by the graphical tool are in conflict
+Dilla and Steibart 13 confirm that additional mental calculations increase the potential of making mistakes
+The general assumption is that symbolic representation facilitates extracting and acting on discrete data values and analytical processes provide the most appropriate access for decision makers to data presented in tables 78 80
+ Within an integrative negotiation approach the knowledge of the counterparts true preferences facilitates Paretoimproving negotiation moves and consequently efficient agreements 56 
+Swaab et al 75 propose that negotiators provided with graphical decision aids develop a better understanding of the negotiation problem Through the display of the utilities of previous offers and counteroffers during the negotiation negotiators can more easily identify tendencies and trends conflicting issues and topics less exposed to conflict 
+Concessions seem to be crucial especially when parties are trapped in a deadlock or when conflict spirals occur and the situation escalates 2955
+Negotiators often base their decisions on heuristic strategies or on oversimplifying rules which allow them to generate leverage effects within the decision accuracybenefit tradeoffs 24
+ In negotiation theory this behavior is classified as integrative negotiation behavior 8485 and has been shown to have a positive effect on agreement 
+ The provision of the history graph will lead to integrative negotiation behavior resulting in a better bargaining climate 25 
+We applied content analysis to the 60 negotiation transcripts following the five stage model suggested by Srnka and Koeszegi 73  
+The intercoder reliability Cohens κ reached 094 which can be considered an excellent result 39 
+The SetNet software is available from 1 along with all of the study material and a video preview of our work This includes the diagrams questions and the performance data collected 
+Gurr proposed that visualizations which are wellmatched to their semantics are effective 19
+We summarize these results presented as a series of layout guides by Blake et al 10
+The authors of 10 further observe using similarity theory 13 that the reduced ability to discriminate implies the use of rectangles leads to worse performance as compared to circles
+The primary purpose of this section is to introduce and theoretically analyze the four techniques that we evaluated EulerView 41 Bubble Sets 12 LineSets 3 and KelpFusion 28 they are illustrated in Fig 1
+Shape Draw Euler diagrams with circles 10 Symmetry Draw Euler diagrams with highly symmetrical curves 10
+Lastly the boundaries of the regions are similar in shape to the curves themselves so the shape discrimination guide is not met33LineSets LSLineSets were introduced to overcome problems associated with visual clutter that is seen in Euler diagrams 3 
+An early attempt to combine sets and networks in a single visualization relied on first drawing an Euler diagram then placing a graph inside it 30 however the sets were often visualized with convoluted difficult to follow curves 
+Graph clusters are visualized with transparent hulls by Santamaria and Theron 39 
+It is possible to visualize grouped network data using ComEd and DupEd by drawing edges between the nodes 35 
+An incremental constrained graph layout IPSepCoLa 14 has been employed to create such a visualization by defining the grouping of the nodes into sets as constraints on the graph layout 
+Further techniques for visualizing similar data are described in 184044 and a recent survey on set visualizations 5
+Alper et al 3 evaluate LineSets as compared to Bubble Sets with three categories of grouped network data 50 items three sets and five set intersections 100 items four sets and 10 set intersections and 200 items five sets and 30 set intersections
+Their study used visualizations of grouped data with no network information with the following characteristics four sets with 15 to 49 items five sets with 12 to 29 items
+To visualize the sets SetNet builds on an Euler diagram drawing technique 42 called iCircles
+An extension of iCircles to include graphs has already been given in 36 which we further extend in this paper
+The technique improves on 36 by adding a processing step 
+A more detailed description on how structure checking is performed is in 46
+This is a standard spring embedder 15 with linear attractive forces and the addition of a repulsive nodecircle force that pushes nodes away from circle borders
+Of these two performance measures we view accuracy as more important than completion time consistent with other researchers such as 3
+We derived eight data sets from Twitter egonetworks obtained from the SNAP network data set collection 27
+Using the eight data sets we generated visualizations using each of the five techniques all of the diagrams are available from 1 as well as in the supplementary material
+For the techniques that assign primary spatial rights to the network the graphs were laid out using Gephi ForceAtlas 2 layout algorithm 6 the same graph layout was used for these three techniques
+For the remaining techniques a palette of colours was generated using a qualitative colour scale from colorbrewer2org 20
+With this in mind we appealed to 47 which presents tasks that people need to perform when analyzing social networks
+We adopted a crowdsourcing approach using Amazon Mechanical Turk MTurk 32 to automatically outsource tasks 
+The HITs were based on the templates provided by Micallef et al 29
+Consistent with Meulemans et al 28 we only analyze the correct answers 
+One found Bubble Sets outperformed LineSets 24 whereas another found that KelpFusion outperformed LineSets which in turn outperformed Bubble Sets 28 
+In the case of 25 the set visualization was simpler to the one we used as there were no group overlaps 
+It would also be interesting to perform further empirical studies to explore the use of multiple unjoined circles as with SetNet as compared to the use of multiple joined convex shapes as in 35
+Beebee 1994 states that genre is primarily the precondition for the creation and the reading of texts and literary learning or academic research is secondary
+the perceiver uses sensory information and builds or constructs this incomplete information to make sense of it Braisby  Gellatly 2005 
+As Cole et al 2010 found different tasks during reading comportment enabled the switching between skimming and reading behavior and are inherent indicators of the present task 
+Toms  Campbell 1999a contended that the attributes of a documents genre enable it to be specifically identified and showed that genre features play a significant role in recognizing documents
+In 78 we have shown that approaches using Case Based Reasoning CBR and rules as knowledge management techniques succeed in autonomically enacting SLAs and governing important parts of Cloud computing infrastructures
+Using rules 8 we managed to improve not only SLA adherence and resource allocation efficiency as discussed in 7 but also attained an efficient use of reallocation actions and high scalability
+Borgetto et al 21 tackle the tradeoff between consolidating VMs on PMs and turning off PMs on the one hand and attaining SLOs for CPU and memory on the other 
+Therefore a mechanism is required for the automatic adaptation between different templates without changing the templates themselves A possible solution for this is the so called SLA mapping approach presented in 33 
+Detailed information on the adaptation phase including the SLA mapping approach are found in 3334
+This monitoring framework has proven to be highly scalable and is presented in more detail in 3
+In order to give the KB some knowledge about what to do in specific situations several initial cases are stored in the KB as described in 7 in more detail
+A successful selfadaptation has been presented in 42
+More recently a method focused on both big and class imbalanced data classification was proposed 29
+It is based on the computation of Tomek links 31 defined as a pair of nearest neighbors of opposite classes
+For details on the SVM algorithm we refer to 33 here we discuss its limitations on large and imbalanced training sets
+The three real data sets have been extracted from the Forest Cover Type data set of the UCI repository 5 having 7 classes and 581012 samples  
+To be an effective practical addition to the design process computational simulation time must be shortened and reduced order modelling has been shown to be an effective method for attaining this goal 23
+The fundamental aim of reduced order modelling is to reduce the number of degrees of freedom DoF necessary to produce the required information to an acceptable level of accuracy 4 
+ The vast majority of reduced order models ROMs achieve this result by projecting the governing equations onto a series of spatial modes 5
+ In equation driven methods such as nonlinear normal modes 6 the modes are constructed by applying mathematical reduction techniques directly to the equations themselves
+To overcome the issue of interpolation cost we employ radial basis function RBF interpolation 21 where the interpolation expense does not increase significantly with the number of dimensions
+RBF interpolation can be readily implemented as it does not require a triangulation to define the connectivity between the data points 22 
+ It has been applied to many fields including the solution of partial differential equations 23
+Stabilisation and discontinuity capturing is achieved by the explicit addition of artificial viscosity A fully implicit three level second order method is adopted for the time discretisation At each time step the implicit equation system is solved by explicit iteration with multigrid acceleration 2425 
+For regions with discontinuities a firstorder harmonic term is added where a pressure switch is used to ensure the term is only significant in regions of strong pressure gradients 26 
+The JST scheme 27 is applied for stabilization more details on the solver can be found in 26 
+ An initial mesh with 44573 nodes was generated and to allow for the complete movement of the wing a further 31 meshes were obtained from this mesh by mesh movement This was accomplished using the Delaunay graph concept 28 resulting in the same nodal connectivities on each mesh
+ This was accomplished using the MATLAB 29 function interp1
+This family of techniques is discussed elsewhere 3031 where it is stated that the applicability of POD interpolation techniques to unsteady problems is unclear The results presented here show that they are clearly applicable
+The same finding was discussed by Bouhoubeiny and Druault 32 who applied a similar technique to interpolate experimental data in time 
+When compared with 31 competing interpolation techniques on a range of functions it was found that RBFs performed best in terms of accuracy for a variety of functions 33  
+ It is difficult to find comparisons of this nature however in an early PODROM paper Pettit and Beran 34 speculate that using a ROM should be better than interpolation but stated that this needed to be tested
+Degroote et al 30 provide a comparison between Kriging interpolation of the solution field and ROMs projected onto basis functions interpolated with respect to the parameter space 
+Results were also recently reported by Wang et al 31 
+ Part of this problem has been recently addressed by Sivaraman et al 2016 with their programmable packet scheduling techniques in switches and by Mittal et al 2016 introduction of packet scheduling algorithms that roughly meet the requirements of a universal packet scheduler 
+We use Perf 2016 to access the performance counters of the Linux kernel 
+Details about how DDIO works in our testbed are given in Section 6212 in Katsikas 2016b
+The complete list of available events is available at Intel 2016b and a detailed explanation of how these counters are collected and combined is provided in the Appendix A1 in Katsikas 2016b
+As for the ability of the SCC Profiler to time the functions of the NFV stack we exploit Intels highprecision event timers HPET Intel 2016c via Perf to acquire the entire list of functions together with their contribution to the total latency
+We focus on a basic NF a router using a slightly modified version of the router implemented by Kohler et al in Kohler et al 2000
+ Finally although we target NFV applications that use the native Linux driver for IO we also deployed the same router using FastClicks DPDK DPDK 2016 IO elements using the DPDK network driver to examine the highest achievable performance
+The results shown in Table 4 were interpreted in detail in Section 6311 of the licentiate thesis by Katsikas 2016b 
+For example lmbench McVoy and Staelin 1996 and Intels memory latency checker MLC Intel 2013 quantify the latency when transferring data of variable size across different hardware components ie registers caches main memory 
+Modern code profilers such as OProfile Levon 2016 and Perf Perf 2016 access lowlevel performance counters at runtime providing statistics about applications or the entire OS
+Moreover likwid likwid 2016 provides a broader performance monitoring suite 
+DProf Pesterev et al 2010 helps programmers understand cache miss costs by associating these misses with the data types instead of the code
+Sivaraman et al 2016 envisioned future switches with programmable boards that allow network administrators to deploy custom packet scheduling schemes 
+Mittal et al 2016 explored the possibility of designing a universal packet scheduler that can match the results of any scheduling algorithm concluding that the Least Slack Time First algorithm is the one that best approximates the universal scheduler
+Netmap Rizzo 2012 DPDK DPDK 2016 PFQ Bonelli et al 2012 and PFRING Deri 2011 are network IO mechanisms that boost NFV performance by providing direct access to the ring buffers of a NIC using custom network drivers
+We found that the vectorized IO technique Bhattacharya et al 2003 introduced in version 25 of the Linux kernel permits readingwriting frames fromto multiple buffers using a single transaction
+We generate all the morphologically related forms of the word pair using a lexical transducer for English  Karttunen et al 1992
+The Xerox tagger is claimed Cutting el al 1992 to be adaptable and easily trained only a lexicon and suitable amount of untagged text is required
